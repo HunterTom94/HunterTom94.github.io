@@ -3,19 +3,93 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
     <title>Yinan (Tom) Xuan</title>
 </head>
 <body>
 <div class="container">
-    <h1>
-        Content Coming Soon!
-    </h1>
+
+    <nav class="nav nav-default">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active pl-0" href="research.html">Research</a>
+        <a class="nav-link" href="Yinan Xuan CV.pdf" target="blank">CV</a>
+    </nav>
+
+    <hr class='mt-0'>
+
+    <div class="row">
+        <h1 style="text-align:center;">Pipeline for analyzing large population of cell activities</h1>
+
+        <hr class='mt-0'>
+
+        <div class="col-sm-4">
+            <br><br>
+            <img src="GutImageProcessing/BackgroundSubtraction.gif" class="img-fluid proj_img">
+            <p style="text-align:center;">Before/After Background Subtraction</p>
+
+
+        </div>
+        <div class="col-sm-8">
+            <div>
+                <br>
+                <h4>Background Subtraction</h4>
+                <p>
+                    Background noise can come from both camera's intrinsic property and slightest ambient light.
+                    Background noise lower the contrast between cell body and the background, making cell body more
+                    difficult to be identified. In order to reduce the background noise,
+                    I used Rolling-Ball algorithm to subtract background from the raw video. This algorithm has the
+                    advantage of taking into account the unevenness of the background. Also, it is a
+                    built-in feature in <a href="https://imagej.net/Fiji" class="linkto" target="blank">ImageJ Fiji</a>.
+                </p>
+                <p>
+                    To understand rolling ball algorithm intuitively, imagine the 2D signal as a 3D contour surface,
+                    with the value at each position as its height. The calculated background is the <a
+                        href="https://www.google.com/search?q=rolling+ball+background+subtraction&client=firefox-b-1-d&hl=en&sxsrf=ACYBGNSYN6MZjtLi1Jul5DKntSy0NuEa8A:1576568156929&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj6s9SHlrzmAhW_HjQIHdJGAxAQ_AUoAXoECAwQAw&biw=1920&bih=966"
+                        class="linkto" target="blank">trajectory</a> of a ball rolling over the bottom of this surface.
+                    Mathematically, the algorithm is equivalent to eroding and dilating with a spherical structuring
+                    element.[1] The input of this morphological operation is the 3D contour mentioned above, and the
+                    result of this operation is the calculated background. Thus, the diameter of the ball should not be
+                    smaller than the signal, and was therefore determined to be 50 pixels empirically.
+                </p>
+                <hr class='mt-0'>
+                <h4>Cell Body Identification</h4>
+                <p>More contents coming soon!</p>
+                <br><br>
+                <img src="GutImageProcessing/SARFIA Raw Gaussian ROI.gif" class="img-fluid proj_img">
+                <p style="text-align:center;">Raw Max Projection/ Gaussian Filter/ Identified ROI</p>
+<!--                <p>-->
+<!--                    Cell bodies are identified using edge detection. I have tried both Sobel and Laplacian Edge Detector.-->
+<!--                    I ended up adopting an implementation of Laplacian Edge Detector in Matlab called <a-->
+<!--                        href="https://www.mathworks.com/matlabcentral/fileexchange/26482-sarfia-semi-automated-routines-for-functional-image-analysis"-->
+<!--                        class="linkto" target="blank">SARFIA</a>.[2] -->
+<!--                </p>-->
+<!--                <p>-->
+<!--                    On top of identifying cell body, SARFIA also extracts individual cell activity information. This is done by first fill the -->
+<!--                </p>-->
+            </div>
+
+            <hr class='mt-0'>
+
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p></p>
+    </div>
+
 </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
 </body>
 </html>
