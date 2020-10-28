@@ -84,9 +84,9 @@ img {
     padding-top: 1em;
 }
 
-.project-row{
-    padding-top: 2em;
-}
+/*.project-row{*/
+/*    padding-top: 2em;*/
+/*}*/
 
 .news-title{
     padding-top: 0.5em;
@@ -106,9 +106,14 @@ img {
     text-align: center;
 }
 
-.proj_img{
-    padding-top: 1em;
+.article-intro{
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
+/*.proj_img{*/
+/*    padding-top: 1em;*/
+/*}*/
 
 .footer {
     left: 0;
