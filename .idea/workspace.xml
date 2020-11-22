@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed3c883f-8c51-4f46-9153-77267de0ad08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/YinanXuanCV.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/research.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tips.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y-bckup.tar.gz" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="responsive_article" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jCueX902r6ojaFD1FsjLYUrv3E" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hunte\OneDrive\XYN\Small Personal Projects\PersonalWebsite" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed3c883f-8c51-4f46-9153-77267de0ad08" name="Default Changelist" comment="" />
+      <created>1603320491276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603320491276</updated>
+      <workItem from="1603320492422" duration="25415000" />
+      <workItem from="1606019683227" duration="717000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added face tracking project&#10;Changed introduction">
+      <created>1603346046865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603346046865</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Open video in new tab">
+      <created>1603347414589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603347414589</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated CV">
+      <created>1603349543844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603349543844</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated CV and introduction">
+      <created>1603400410964</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603400410965</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated CV and introduction">
+      <created>1603434040710</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603434040710</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update Youtube link for SpecTracle">
+      <created>1603873859405</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603873859405</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Make mobile compatible">
+      <created>1603918463118</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603918463118</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Make mobile compatible">
+      <created>1603918679078</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603918679078</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix typo in navigation">
+      <created>1603921890855</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603921890855</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixed peltier picture">
+      <created>1603923279476</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603923279476</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update video link">
+      <created>1604018375609</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604018375609</updated>
+    </task>
+    <task id="LOCAL-00012" summary="updated gif preview">
+      <created>1604043035448</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604043035448</updated>
+    </task>
+    <task id="LOCAL-00013" summary="before fiverr">
+      <created>1606020091271</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606020091271</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fiverr">
+      <created>1606020316008</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606020316008</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added face tracking project&#10;Changed introduction" />
+    <MESSAGE value="Open video in new tab" />
+    <MESSAGE value="Updated CV" />
+    <MESSAGE value="updated CV and introduction" />
+    <MESSAGE value="update Youtube link for SpecTracle" />
+    <MESSAGE value="Make mobile compatible" />
+    <MESSAGE value="fix typo in navigation" />
+    <MESSAGE value="fixed peltier picture" />
+    <MESSAGE value="update video link" />
+    <MESSAGE value="updated gif preview" />
+    <MESSAGE value="before fiverr" />
+    <MESSAGE value="fiverr" />
+    <option name="LAST_COMMIT_MESSAGE" value="fiverr" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1011" y="426" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603345628911">
+      <screen x="0" y="0" width="2560" height="1359" />
+    </state>
+    <state x="1011" y="426" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1359/-1920.574.1920.999@0.0.2560.1359" timestamp="1603345628911" />
+    <state x="865" y="248" key="CommitChangelistDialog2" timestamp="1606020315310">
+      <screen x="0" y="0" width="2560" height="1359" />
+    </state>
+    <state x="865" y="248" key="CommitChangelistDialog2/0.0.2560.1359/-1920.574.1920.999@0.0.2560.1359" timestamp="1606020315310" />
+    <state x="873" y="412" key="Vcs.Push.Dialog.v2" timestamp="1606020353282">
+      <screen x="0" y="0" width="2560" height="1359" />
+    </state>
+    <state x="873" y="412" key="Vcs.Push.Dialog.v2/0.0.2560.1359/-1920.574.1920.999@0.0.2560.1359" timestamp="1606020353282" />
+  </component>
+</project>
