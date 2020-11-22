@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Yinan (Tom) Xuan</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body id="body">
+
+
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#body" class="scrollto">Yinan (Tom) Xuan</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="index.html">Home</a></li>
+          <li><a href="index.html#clients">Research</a></li>
+          <li><a href="index.html#services">Publications</a></li>
+          <li><a href="YinanXuanCV.pdf" target="_blank">CV</a></li>
+          <li><a href="tips.html">Notes/Tips</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+
+
+       <!--==========================
+     Research Section
+    ============================-->
+
+
+      <div class="container">
+        <div class="section-header wow fadeInUp secpadding" style="visibility: visible; animation-name: fadeInUp;">
+          <h2>Notes & Tips</h2>
+          <p>I summarized the solutions to some of the problems I have encountered. Since I could not find the solution on the Internet, I believe it will be helpful that I share them here both for other developers and for my future reference. </p>
+
+<div class="sidenav" id="menubar">
+    <p>Jump to: </p>
+    <ul>
+    <li><a href="#OpenCV">OpenCV</a></li>
+    <li><a href="#AzureFaceAPI">AzureFaceAPI</a></li>
+    <li><a href="#Unity">Unity</a></li>
+    </ul>
+</div>
+<div class="r-container" id="#OpenCV">
+
+
+
+<div class="col-sm-12 r-text">
+<h3>OpenCV-Python</h3>
+<p>
+                 Get Frames from a Grayscale Webcam
+                </p>
+<p class="entry">
+                By default, <a href="https://docs.opencv.org/4.2.0/d8/dfe/classcv_1_1VideoCapture.html" class="linkto" target="blank">VideoCapture()</a> is set to interface with colorful webcam and returns a BGR
+                matrix when VideoCapture().read() is called. However, some camera is designed for black and white
+                image outputs. In order to capture frames from such monochrome (or grayscale, or black&amp;white) cameras,
+                it
+                is necessary to first set the VideoCapture to Monochrome mode. We can do this by the following:
+            </p>
+
+            <pre>                <code>
+    cap = cv2.VideoCapture(cameraDeviceIndex) # initialize videoCapture
+    cap.set(cv2.CAP_PROP_CONVERT_RGB, False) # output the frame as a 2D matrix instead of 3D matrix
+    cap.set(cv2.CAP_PROP_MONOCHROME, True) # expect monochrome output from camera
+    frame_is_returned, frame = cap.read() # read a frame
+                </code>
+            </pre>
+
+
+            <p> As a side note, it is also possible to set the resolution of the camera by using: </p>
+
+
+            <pre>                <code>
+    cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
+    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
+                </code>
+            </pre>
+
+</div>
+</div>
+
+
+<div class="r-container" id="#AzureFaceAPI">
+
+<div class="col-sm-12 r-text">
+<h3>Microsoft-Azure-Cognitive-Service-Face</h3>
+<p>Setting Endpoint for client SDK (how to resolve the "Resource not found" exception)</p>
+<p>A client is need to perform face detection and identification via Azure Cognitive Service Face API. In order to initialize a client, both the subscription key and an endpoint address is needed. Both the key and the endpoint are provided when a Face resource is generated in your Azure account. However, for some reason, different endpoint links are needed in different programming languages. </p>
+<p>
+                <strong>For <a href="https://docs.microsoft.com/en-us/azure/cognitive-services/face/quickstarts/python-sdk" class="linkto" target="blank">initializing a client in Python</a>, use the endpoint provided in your Azure
+                    account, which is formatted
+                    as:</strong>
+            </p>
+<p><em>
+                https://YOUR_RESOURCE_NAME.cognitiveservices.azure.com/
+            </em></p>
+
+<p>
+                <strong>For <a href="https://docs.microsoft.com/en-us/azure/cognitive-services/face/tutorials/faceapiinjavaforandroidtutorial" class="linkto" target="blank">initializing a client in Java(Android)</a>, the endpoint with the link formatted
+                    as:</strong>
+            </p>
+<p><em>
+                https://LOCATION_SPECIFIED_WHEN_CREATING_THE_RESOURCE.api.cognitive.microsoft.com/face/v1.0/
+            </em></p>
+
+<p><strong>For example, if you chose west US 2 when generating the face resource, use the endpoint
+                    as:</strong></p>
+<p><em>
+                https://westus2.api.cognitive.microsoft.com/face/v1.0/
+            </em></p>
+<p> If a wrong endpoint is given, it is possible that you will get an exception called "Resource not found" when calling a function from the client. </p>
+<p> Also, do not forget to add the closing slash in the endpoint address! </p>
+
+</div>
+</div>
+
+
+<div class="r-container" id="#Unity">
+
+<div class="col-sm-12 r-text">
+<h3>Unity-C# </h3>
+
+<p>Get Device's Acceleration without Gravity</p>
+<p>When using C# to code in Unity Engine, it is possible to use <code>Input.acceleration;</code> to get a
+                <var>Vector3</var> variable representing device's current net acceleration. Inevitably, this value also
+                takes into account the gravity from earth. Intuitively, we do not want to take gravity into account.</p>
+<p>   Luckily, <code>Input.gyro.gravity;</code> also returns <var>Vector3</var> variable that contains
+                information only about the gravitational acceleration. What's even better is that this readout has much
+                less high frequency noise than that from the accelerometer, potentially due to the difference in the
+                mechanism by which gyroscope and accelerometer uses. By simply using <code>Input.acceleration -
+                Input.gyro.gravity;</code>, we get a <var>Vector3</var> variable containing device's acceleration
+                information without gravitational component.</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+      </div>
+
+
+
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; 2020. All Rights Reserved.
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Reveal
+        -->
+        Designed by <a href="https://webservices99.com/">Web Services 99</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/sticky/sticky.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+
+
+</body>
+</html>
