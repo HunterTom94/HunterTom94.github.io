@@ -1229,6 +1229,33 @@ line-height: 35px;
     font-size:25px;
 }
 
+.research-title{
+  text-transform: none !important;
+}
+
+.center{
+  text-align: center;
+}
+
+.ppp{
+    margin-top: 20px !important;
+}
+
+.gauss{
+  width:100%;
+  margin:0 auto;
+  text-align: center;
+}
+
+.image{
+  width:100%;
+}
+
+.pc{
+    padding: 15px 0 0px 0 !important;
+}
+
+
 .secpadding{
     padding-top:60px;
 }
