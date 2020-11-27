@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Yinan (Tom) Xuan</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body id="body">
+
+
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#body" class="scrollto">Yinan (Tom) Xuan</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="index.html">Home</a></li>
+          <li><a href="#clients">Research</a></li>
+          <li><a href="#services">Publications</a></li>
+          <li><a href="YinanXuanCV.pdf" target="_blank">CV</a></li>
+          <li><a href="tips.html">Notes/Tips</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+
+
+
+       <!--==========================
+     Research Section
+    ============================-->
+
+    <section id="clients" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="research-title">Olfactory Virtual Reality for Flies</h2>
+
+<div class="r-container">
+
+<div class="col-sm-4 r-pic">
+<img src="img/Setup.jpg" class="pc" />
+<p class="center">Overview of the setup</p>
+
+<img src="img/tethered_fly.jpg" class="pc image" />
+<p class="center">Zoom in of tethered fly
+(Fly will be lowered during experiment)</p>
+
+</div>
+<div class="col-sm-8 r-text">
+
+<p>
+                    This project is an olfactory VR system to measure odor-guided behaviors in <a href="https://en.wikipedia.org/wiki/Drosophila_melanogaster" class="linkto" target="blank">Drosophila melanogaster (fruit fly)</a>. The system consists of three parts: a
+                    spherical treadmill, an olfactometer (to deliver odor in a controlled manner), and a feedback system
+                    (to update the delivery of odor based on the fly’s position in the virtual world).
+                </p>
+                <p class="ppp">
+                    This system is designed to be compatible with multi-photon imaging so that the neuron activity in
+                    fly's brain can be recorded together with its behavioral activities.
+                </p>
+<hr />
+               
+<h4>Spherical Treadmill</h4>
+<p>
+                    The ball treadmill tracking system is initially invented by <a href="https://link.springer.com/article/10.1007/BF00360648" class="linkto">Buchner in 1976</a>
+                    and is now a relatively mature technique, where an animal is tethered and positioned on top of a
+                    floating sphere pushed up by gentle air stream from the bottom.
+                </p>
+               <p class="ppp">
+                    As the animal walks, the sphere is turned and the animal is interpreted to be walking on a fictive
+                    two-dimensional plane. The walking trajectory of the animal is inferred from the rotation of the
+                    sphere.
+                </p>
+                <p class="ppp">
+                    Video recording is used to determine the rotation of the sphere and the movement of the tethered
+                    fly. Since 1976, methods have evolved over time , in this project I used <a href="https://github.com/rjdmoore/fictrac" class="linkto">FicTrac</a> , an open-source
+                    software that infers animals walking trajectory from video information of only one camera.
+                </p>
+<hr />
+<h4>Olfactometer</h4>
+<p>
+                    Odors are diluted before delivered to the animal. Two mass flow controllers (MFC) are used to
+                    control odor concentration. One controller sets the flow rate of the air stream carrying the odor,
+                    while the other sets the flow rate of the air stream that serves to dilute the odor. The two streams
+                    are combined at a mixing chamber before delivered to the animal. The schematic diagram is shown
+                    below:
+                </p>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+<img src="img/DilutionFlow.jpg" />
+
+
+<div class="r-container">
+  <div class="col-sm-4 r-pic">
+<img src="img/response_time.jpg" class="pc" />
+<p class="center">Response Time
+x: time since command sent (s)
+y: flow rate (50 is the target)</p>
+
+<img src="img/pulse.jpg" class="pc image" />
+<p class="center">PID readout (Pulse Mode)</p>
+
+</div>
+
+<div class="col-sm-8 r-text">
+  
+  <p>
+                Code is written in Python to communicate with MFC through serial ports and is integrated with
+                closed-loop control, which will be discussed in the following section. The code takes the final total
+                flow rate and the target dilution factor as input, and find the best match of the combination of
+                dilution MFC flow rate and odor MFC flow rate. Such flow rates are subsequently sent as commands to both
+                MFCs as updated setpoints.
+            </p>
+            <p class="ppp">
+                Alicat MC Series MFCs are used because of their accuracy, fast response time and ability to be
+                controlled via serial communication. After tuning PD parameters, the two controllers are able to reach a
+                response time less than 100 milliseconds when the input is compressed air at 30 psi.
+            </p>
+            <p class="ppp">
+                The odor air stream and the dilution air stream are mixed at an odor mixing chamber that supports up to
+                8 odor inputs. One metal grid is positioned at the output of the mixing chamber to increase the
+                turbulence for better mixing. The diameter of the output port is 13.7mm. When the final output flow rate
+                is set to be 500 Standard Cubic CentiMeters(SCCM), the speed of air stream coming out of the port would be 5.6 cm/s.
+            </p>
+            <p class="ppp">
+                Photoionization detector (PID) has been used to determine the performance of the olfactometer. The odor
+                can be delivered well in pulse, but the concentration may fluctuate a lot if the odor is delivered
+                continuously. This is potentially due to the depletion of odor inside the odor bottle.
+            </p>
+</div>
+
+</div>
+
+</div>
+
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; 2020. All Rights Reserved.
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Reveal
+        -->
+        Designed by <a href="https://webservices99.com/">Web Services 99</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/sticky/sticky.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
