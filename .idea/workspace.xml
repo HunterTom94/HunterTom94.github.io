@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed3c883f-8c51-4f46-9153-77267de0ad08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ValveControlSystem.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YinanXuanCV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/YinanXuanCV.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gut_Video_Imaging_Process.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gut_Video_Imaging_Process.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <workItem from="1606019683227" duration="717000" />
       <workItem from="1612555892051" duration="53000" />
       <workItem from="1612556161798" duration="599000" />
-      <workItem from="1612640392906" duration="3104000" />
+      <workItem from="1612640392906" duration="8810000" />
     </task>
     <task id="LOCAL-00001" summary="Added face tracking project&#10;Changed introduction">
       <created>1603346046865</created>
@@ -157,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606020316008</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updated CV">
+      <created>1613082219403</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1613082219403</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,20 +182,7 @@
     <MESSAGE value="updated gif preview" />
     <MESSAGE value="before fiverr" />
     <MESSAGE value="fiverr" />
-    <option name="LAST_COMMIT_MESSAGE" value="fiverr" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="961" y="415" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1612555918513">
-      <screen x="0" y="0" width="2560" height="1359" />
-    </state>
-    <state x="961" y="415" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1359/-1920.574.1920.1080@0.0.2560.1359" timestamp="1612555918513" />
-    <state x="865" y="248" key="CommitChangelistDialog2" timestamp="1606020315310">
-      <screen x="0" y="0" width="2560" height="1359" />
-    </state>
-    <state x="865" y="248" key="CommitChangelistDialog2/0.0.2560.1359/-1920.574.1920.999@0.0.2560.1359" timestamp="1606020315310" />
-    <state x="873" y="412" key="Vcs.Push.Dialog.v2" timestamp="1606020353282">
-      <screen x="0" y="0" width="2560" height="1359" />
-    </state>
-    <state x="873" y="412" key="Vcs.Push.Dialog.v2/0.0.2560.1359/-1920.574.1920.999@0.0.2560.1359" timestamp="1606020353282" />
+    <MESSAGE value="updated CV" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated CV" />
   </component>
 </project>
