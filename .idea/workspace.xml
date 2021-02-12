@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed3c883f-8c51-4f46-9153-77267de0ad08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ValveControlSystem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gut_Video_Imaging_Process.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gut_Video_Imaging_Process.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/BackgroundSubtraction.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Sample Video.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/SpikeHold.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ValvePCB.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
       <workItem from="1606019683227" duration="717000" />
       <workItem from="1612555892051" duration="53000" />
       <workItem from="1612556161798" duration="599000" />
-      <workItem from="1612640392906" duration="8810000" />
+      <workItem from="1612640392906" duration="9171000" />
     </task>
     <task id="LOCAL-00001" summary="Added face tracking project&#10;Changed introduction">
       <created>1603346046865</created>
@@ -163,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613082219403</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="updated contents">
+      <created>1613090352677</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1613090352677</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +192,7 @@
     <MESSAGE value="before fiverr" />
     <MESSAGE value="fiverr" />
     <MESSAGE value="updated CV" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated CV" />
+    <MESSAGE value="updated contents" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated contents" />
   </component>
 </project>
