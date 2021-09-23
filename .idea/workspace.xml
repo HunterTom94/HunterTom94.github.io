@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed3c883f-8c51-4f46-9153-77267de0ad08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/SpecTracle.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/SpecTracle.gif" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <workItem from="1612640392906" duration="10802000" />
       <workItem from="1613778350615" duration="1008000" />
       <workItem from="1621198170776" duration="343000" />
-      <workItem from="1632429932701" duration="2011000" />
+      <workItem from="1632429932701" duration="2472000" />
     </task>
     <task id="LOCAL-00001" summary="Added face tracking project&#10;Changed introduction">
       <created>1603346046865</created>
@@ -193,7 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613090718394</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added BP ,updated Spectracle link">
+      <created>1632432119948</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1632432119948</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added one more GIF">
+      <created>1632432170163</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1632432170163</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +230,8 @@
     <MESSAGE value="added img" />
     <MESSAGE value="fixed link" />
     <MESSAGE value="fixed typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed typo" />
+    <MESSAGE value="added BP ,updated Spectracle link" />
+    <MESSAGE value="added one more GIF" />
+    <option name="LAST_COMMIT_MESSAGE" value="added one more GIF" />
   </component>
 </project>
