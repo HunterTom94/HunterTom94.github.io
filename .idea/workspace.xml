@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ed3c883f-8c51-4f46-9153-77267de0ad08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/img/SpecTracle.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/SpecTracle.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +61,8 @@
       <workItem from="1612640392906" duration="10802000" />
       <workItem from="1613778350615" duration="1008000" />
       <workItem from="1621198170776" duration="343000" />
-      <workItem from="1632429932701" duration="2472000" />
+      <workItem from="1632429932701" duration="3839000" />
+      <workItem from="1632932630405" duration="3077000" />
     </task>
     <task id="LOCAL-00001" summary="Added face tracking project&#10;Changed introduction">
       <created>1603346046865</created>
@@ -206,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1632432170163</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="updated GIF">
+      <created>1632432416697</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1632432416697</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix typo">
+      <created>1632432479302</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1632432479302</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +251,8 @@
     <MESSAGE value="fixed typo" />
     <MESSAGE value="added BP ,updated Spectracle link" />
     <MESSAGE value="added one more GIF" />
-    <option name="LAST_COMMIT_MESSAGE" value="added one more GIF" />
+    <MESSAGE value="updated GIF" />
+    <MESSAGE value="fix typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix typo" />
   </component>
 </project>
