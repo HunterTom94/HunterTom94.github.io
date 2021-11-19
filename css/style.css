@@ -590,6 +590,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 
+#services #conferenceName{
+  font-size: 2em;
+  font-style: italic;
+  margin-top: 2em;
+}
+
 #services {
     padding: 70px 0 0 0;
     width: 100%;
@@ -1232,6 +1238,8 @@ line-height: 35px;
 .research-title{
   text-transform: none !important;
 }
+
+
 
 .center{
   text-align: center;
