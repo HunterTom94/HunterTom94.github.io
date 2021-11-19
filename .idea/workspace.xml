@@ -37,6 +37,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -61,7 +62,7 @@
       <workItem from="1621198170776" duration="343000" />
       <workItem from="1632429932701" duration="3839000" />
       <workItem from="1632932630405" duration="3525000" />
-      <workItem from="1637351391089" duration="2243000" />
+      <workItem from="1637351391089" duration="2616000" />
     </task>
     <task id="LOCAL-00001" summary="Added face tracking project&#10;Changed introduction">
       <created>1603346046865</created>
@@ -238,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637354537324</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="updated Pupil Paper">
+      <created>1637354579630</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1637354579630</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
