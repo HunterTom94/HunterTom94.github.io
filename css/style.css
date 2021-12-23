@@ -590,16 +590,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 
-#services #conferenceName{
+#services #conferenceName {
+  font-size: 2em;
+  font-style: italic;
+  margin-top: 2em;
+}
+
+#services #conferenceName1 {
   font-size: 2em;
   font-style: italic;
   margin-top: 2em;
 }
 
 #services {
-    padding: 70px 0 0 0;
-    width: 100%;
-    float: left;
+  padding: 70px 0 0 0;
+  width: 100%;
+  float: left;
 }
 
 #services .box {
