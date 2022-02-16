@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed3c883f-8c51-4f46-9153-77267de0ad08" name="Default Changelist" comment="updated Pupil Paper">
+    <list default="true" id="ed3c883f-8c51-4f46-9153-77267de0ad08" name="Default Changelist" comment="added Nature paper">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YinanXuanCV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/YinanXuanCV.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +66,8 @@
       <workItem from="1632429932701" duration="3839000" />
       <workItem from="1632932630405" duration="3525000" />
       <workItem from="1637351391089" duration="3066000" />
-      <workItem from="1640231853096" duration="2865000" />
+      <workItem from="1640231853096" duration="3592000" />
+      <workItem from="1644426547650" duration="448000" />
     </task>
     <task id="LOCAL-00001" summary="Added face tracking project&#10;Changed introduction">
       <created>1603346046865</created>
@@ -259,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637355089261</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="added Nature paper">
+      <created>1640244273789</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1640244273789</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +307,8 @@
     <MESSAGE value="fix typo" />
     <MESSAGE value="added BP Icon" />
     <MESSAGE value="updated Pupil Paper" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated Pupil Paper" />
+    <MESSAGE value="added Nature paper" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Nature paper" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
