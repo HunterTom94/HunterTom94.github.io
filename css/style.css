@@ -602,6 +602,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 2em;
 }
 
+#services #AwardName {
+  font-size: 1em;
+  font-style: italic;
+  margin-top: 1em;
+}
+
 #services {
   padding: 70px 0 0 0;
   width: 100%;
