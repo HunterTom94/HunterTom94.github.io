@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed3c883f-8c51-4f46-9153-77267de0ad08" name="Default Changelist" comment="added Pupil Award">
+    <list default="true" id="ed3c883f-8c51-4f46-9153-77267de0ad08" name="Default Changelist" comment="added paper links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YinanXuanCV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/YinanXuanCV.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +46,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tomxu\OneDrive\XYN\PersonalWebsite" />
       <recent name="C:\Users\hunte\OneDrive\XYN\Small Personal Projects\PersonalWebsite" />
     </key>
   </component>
@@ -70,7 +72,8 @@
       <workItem from="1644426547650" duration="448000" />
       <workItem from="1645049493511" duration="450000" />
       <workItem from="1649397875847" duration="1514000" />
-      <workItem from="1652131151590" duration="1852000" />
+      <workItem from="1652131151590" duration="3338000" />
+      <workItem from="1669333129718" duration="796000" />
     </task>
     <task id="LOCAL-00001" summary="Added face tracking project&#10;Changed introduction">
       <created>1603346046865</created>
@@ -282,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649398790863</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="added paper links">
+      <created>1652137099887</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1652137099887</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +311,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added face tracking project&#10;Changed introduction" />
     <MESSAGE value="Open video in new tab" />
     <MESSAGE value="Updated CV" />
     <MESSAGE value="updated CV and introduction" />
@@ -326,7 +335,8 @@
     <MESSAGE value="updated Pupil Paper" />
     <MESSAGE value="added Nature paper" />
     <MESSAGE value="added Pupil Award" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Pupil Award" />
+    <MESSAGE value="added paper links" />
+    <option name="LAST_COMMIT_MESSAGE" value="added paper links" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
