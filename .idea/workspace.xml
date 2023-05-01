@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed3c883f-8c51-4f46-9153-77267de0ad08" name="Default Changelist" comment="added paper links">
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="updated bpclip link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YinanXuanCV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/YinanXuanCV.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,282 +15,82 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="responsive_article" />
-      </map>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
     </option>
+  </component>
+  <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1jCueX902r6ojaFD1FsjLYUrv3E" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OvgApKHeWFqedAYyWC7CC4obtx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/CodeRepos/PersonalWebsite&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\tomxu\OneDrive\XYN\PersonalWebsite" />
-      <recent name="C:\Users\hunte\OneDrive\XYN\Small Personal Projects\PersonalWebsite" />
+      <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\peltier" />
+      <recent name="C:\Users\tomxu\Downloads\iPortfolio" />
+      <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\GutImaging" />
+      <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\valve" />
+      <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\odorVR" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\bpclip" />
+      <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio" />
+      <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\bpclip" />
+      <recent name="C:\Users\tomxu\Downloads\iPortfolio" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ed3c883f-8c51-4f46-9153-77267de0ad08" name="Default Changelist" comment="" />
-      <created>1603320491276</created>
+      <changelist id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="" />
+      <created>1682446328668</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603320491276</updated>
-      <workItem from="1603320492422" duration="25415000" />
-      <workItem from="1606019683227" duration="717000" />
-      <workItem from="1612555892051" duration="53000" />
-      <workItem from="1612556161798" duration="599000" />
-      <workItem from="1612640392906" duration="10802000" />
-      <workItem from="1613778350615" duration="1008000" />
-      <workItem from="1621198170776" duration="343000" />
-      <workItem from="1632429932701" duration="3839000" />
-      <workItem from="1632932630405" duration="3525000" />
-      <workItem from="1637351391089" duration="3066000" />
-      <workItem from="1640231853096" duration="3592000" />
-      <workItem from="1644426547650" duration="448000" />
-      <workItem from="1645049493511" duration="450000" />
-      <workItem from="1649397875847" duration="1514000" />
-      <workItem from="1652131151590" duration="3338000" />
-      <workItem from="1669333129718" duration="796000" />
+      <updated>1682446328668</updated>
+      <workItem from="1682446329780" duration="1253000" />
+      <workItem from="1682794989966" duration="20000" />
+      <workItem from="1682795026056" duration="58369000" />
+      <workItem from="1682980889050" duration="1529000" />
+      <workItem from="1682982437365" duration="335000" />
     </task>
-    <task id="LOCAL-00001" summary="Added face tracking project&#10;Changed introduction">
-      <created>1603346046865</created>
+    <task id="LOCAL-00001" summary="new template">
+      <created>1682980931805</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1603346046865</updated>
+      <updated>1682980931805</updated>
     </task>
-    <task id="LOCAL-00002" summary="Open video in new tab">
-      <created>1603347414589</created>
+    <task id="LOCAL-00002" summary="updated bpclip link">
+      <created>1682981227230</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1603347414589</updated>
+      <updated>1682981227230</updated>
     </task>
-    <task id="LOCAL-00003" summary="Updated CV">
-      <created>1603349543844</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1603349543844</updated>
-    </task>
-    <task id="LOCAL-00004" summary="updated CV and introduction">
-      <created>1603400410964</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1603400410965</updated>
-    </task>
-    <task id="LOCAL-00005" summary="updated CV and introduction">
-      <created>1603434040710</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1603434040710</updated>
-    </task>
-    <task id="LOCAL-00006" summary="update Youtube link for SpecTracle">
-      <created>1603873859405</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1603873859405</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Make mobile compatible">
-      <created>1603918463118</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1603918463118</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Make mobile compatible">
-      <created>1603918679078</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1603918679078</updated>
-    </task>
-    <task id="LOCAL-00009" summary="fix typo in navigation">
-      <created>1603921890855</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1603921890855</updated>
-    </task>
-    <task id="LOCAL-00010" summary="fixed peltier picture">
-      <created>1603923279476</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1603923279476</updated>
-    </task>
-    <task id="LOCAL-00011" summary="update video link">
-      <created>1604018375609</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1604018375609</updated>
-    </task>
-    <task id="LOCAL-00012" summary="updated gif preview">
-      <created>1604043035448</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1604043035448</updated>
-    </task>
-    <task id="LOCAL-00013" summary="before fiverr">
-      <created>1606020091271</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1606020091271</updated>
-    </task>
-    <task id="LOCAL-00014" summary="fiverr">
-      <created>1606020316008</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1606020316008</updated>
-    </task>
-    <task id="LOCAL-00015" summary="updated CV">
-      <created>1613082219403</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1613082219403</updated>
-    </task>
-    <task id="LOCAL-00016" summary="updated contents">
-      <created>1613090352677</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1613090352677</updated>
-    </task>
-    <task id="LOCAL-00017" summary="added img">
-      <created>1613090531675</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1613090531675</updated>
-    </task>
-    <task id="LOCAL-00018" summary="fixed link">
-      <created>1613090676942</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1613090676942</updated>
-    </task>
-    <task id="LOCAL-00019" summary="fixed typo">
-      <created>1613090718394</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1613090718394</updated>
-    </task>
-    <task id="LOCAL-00020" summary="added BP ,updated Spectracle link">
-      <created>1632432119948</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1632432119948</updated>
-    </task>
-    <task id="LOCAL-00021" summary="added one more GIF">
-      <created>1632432170163</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1632432170163</updated>
-    </task>
-    <task id="LOCAL-00022" summary="updated GIF">
-      <created>1632432416697</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1632432416697</updated>
-    </task>
-    <task id="LOCAL-00023" summary="fix typo">
-      <created>1632432479302</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1632432479302</updated>
-    </task>
-    <task id="LOCAL-00024" summary="added BP Icon">
-      <created>1633025787817</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1633025787817</updated>
-    </task>
-    <task id="LOCAL-00025" summary="updated Pupil Paper">
-      <created>1637354537324</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1637354537324</updated>
-    </task>
-    <task id="LOCAL-00026" summary="updated Pupil Paper">
-      <created>1637354579630</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1637354579630</updated>
-    </task>
-    <task id="LOCAL-00027" summary="updated Pupil Paper">
-      <created>1637355089261</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1637355089261</updated>
-    </task>
-    <task id="LOCAL-00028" summary="added Nature paper">
-      <created>1640244273789</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1640244273789</updated>
-    </task>
-    <task id="LOCAL-00029" summary="added Nature paper">
-      <created>1645049658532</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1645049658532</updated>
-    </task>
-    <task id="LOCAL-00030" summary="added Pupil Award">
-      <created>1649398790863</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1649398790863</updated>
-    </task>
-    <task id="LOCAL-00031" summary="added paper links">
-      <created>1652137099887</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1652137099887</updated>
-    </task>
-    <option name="localTasksCounter" value="32" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,35 +106,14 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Open video in new tab" />
-    <MESSAGE value="Updated CV" />
-    <MESSAGE value="updated CV and introduction" />
-    <MESSAGE value="update Youtube link for SpecTracle" />
-    <MESSAGE value="Make mobile compatible" />
-    <MESSAGE value="fix typo in navigation" />
-    <MESSAGE value="fixed peltier picture" />
-    <MESSAGE value="update video link" />
-    <MESSAGE value="updated gif preview" />
-    <MESSAGE value="before fiverr" />
-    <MESSAGE value="fiverr" />
-    <MESSAGE value="updated CV" />
-    <MESSAGE value="updated contents" />
-    <MESSAGE value="added img" />
-    <MESSAGE value="fixed link" />
-    <MESSAGE value="fixed typo" />
-    <MESSAGE value="added BP ,updated Spectracle link" />
-    <MESSAGE value="added one more GIF" />
-    <MESSAGE value="updated GIF" />
-    <MESSAGE value="fix typo" />
-    <MESSAGE value="added BP Icon" />
-    <MESSAGE value="updated Pupil Paper" />
-    <MESSAGE value="added Nature paper" />
-    <MESSAGE value="added Pupil Award" />
-    <MESSAGE value="added paper links" />
-    <option name="LAST_COMMIT_MESSAGE" value="added paper links" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="new template" />
+    <MESSAGE value="updated bpclip link" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated bpclip link" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

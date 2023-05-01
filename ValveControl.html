@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Odor VR</title>
+    <title>Valve Control System</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -129,10 +129,10 @@
         <div class="container">
 
             <div class="d-flex justify-content-between align-items-center">
-                <h2>Odor VR</h2>
+                <h2>Valve Control System</h2>
                 <ol>
                     <li><a href="index.html">Home</a></li>
-                    <li>Odor VR</li>
+                    <li>Valve Control System</li>
                 </ol>
             </div>
 
@@ -143,16 +143,10 @@
     <section id="portfolio-details" class="portfolio-details">
         <div class="container">
             <div class="portfolio-info">
-                <p>
-                    This project is an olfactory VR system, designed to measure odor-guided behaviors in <a
-                        href="https://en.wikipedia.org/wiki/Drosophila_melanogaster" class="linkto" target="blank">Drosophila
-                    melanogaster (fruit fly)</a>. The system is composed of three parts: a spherical treadmill, an
-                    olfactometer (for controlled odor delivery), and a feedback system (to adjust odor delivery based on
-                    the fly's position within the virtual world).
-                </p>
-                <p class="portfolio-info-description-last-p"> The system is specifically designed to be compatible with
-                    two-photon and three-photon imaging, enabling simultaneous recording of neuronal activity in the
-                    fruit fly's brain and its behavioral responses.
+                <p class="portfolio-info-description-last-p"> In this project, a control system is designed and deployed
+                    to independently control the opening of eight solenoid valves. Special considerations have been
+                    taken to implement the control signal as spike-and-hold, in accordance with the requirements
+                    specified in the valve datasheet.
                 </p>
 
                 <div class="skills-date-container">
@@ -168,9 +162,10 @@
                             </ul>
                             <div id="hardware-related-skills" class="collapse show">
                                 <ul>
-                                    <li>Compressed Gas Cylinder Handling</li>
-                                    <li>PID Tuning and Control for Mass Flow Controllers</li>
-                                    <li>Custom Apparatus Assembly and Setup</li>
+                                    <li>PCB Design</li>
+                                    <li>Electronic Component Part Picking & Prototyping</li>
+                                    <li>NI-DAQ</li>
+                                    <li>Embedded System - Arduino</li>
                                 </ul>
                             </div>
                         </div>
@@ -185,8 +180,7 @@
                             <div id="software-related-skills" class="collapse show">
                                 <ul>
                                     <li>Python</li>
-                                    <li>PySerial</li>
-                                    <li>MATLAB</li>
+                                    <li>C++</li>
                                 </ul>
                             </div>
                         </div>
@@ -201,101 +195,38 @@
             <div class="row gy-4 portfolio-detail-div">
 
                 <div class="col-lg-4">
-                    <img src="assets/img/portfolio/odorVR/Setup.jpg"
+                    <img src="assets/img/portfolio/valve/SpikeHold.jpg"
                          class="portfolio-detail-image img-fluid d-block mx-auto"/>
-                    <p class="text-center">Setup Overview</p>
+                    <p class="text-center">Desired Spike and Hold Signal</p>
 
-                    <img src="assets/img/portfolio/odorVR/tethered_fly.jpg"
+                    <img src="assets/img/portfolio/valve/ValvePCB.jpg"
                          class="portfolio-detail-image img-fluid d-block mx-auto"/>
-                    <p class="text-center">Close-up of Tethered Fly (Fly will be lowered during the experiment)</p>
+                    <p class="text-center">The Completed Version of <br> Control System</p>
 
                 </div>
 
                 <div class="col-lg-8">
 
                     <div class="portfolio-description">
-
-                        <h4>Spherical Treadmill</h4>
                         <p>
-                            Initially invented by <a href="https://link.springer.com/article/10.1007/BF00360648"
-                                                     class="linkto">Buchner in 1976</a>, the ball treadmill tracking
-                            system has since evolved into a relatively mature technique. In this system, an animal is
-                            tethered and placed on top of a floating sphere, which is maintained aloft by a gentle air
-                            stream from below.
+                            I used a differential amplifier to generate the signal. Specifically, I subtracted a
+                            charging capacitor's voltage from a steady 12V signal. Additionally, I implemented a
+                            user-friendly design featuring a 3-way toggle, allowing the valve to switch between 1.
+                            manual off, 2. automatic control by software, and 3. manual on, with LEDs indicating the
+                            states of each valve.
                         </p>
+
                         <p class="ppp">
-                            As the animal walks, the sphere rotates, simulating the effect of the animal moving on a
-                            two-dimensional plane. The walking trajectory of the animal is inferred from the rotation of
-                            the sphere.
+                            Along with designing the PCB board, I also wrote Python scripts to control an NI-DAQ device
+                            and send digital outputs for automatically controlling the valves when the toggles on the
+                            PCB are switched to the auto mode.
                         </p>
-                        <p class="ppp">
-                            Video recording is employed to gauge the sphere's rotation and the movement of the tethered
-                            fly. Since 1976, methods have advanced, and this project utilizes <a
-                                href="https://github.com/rjdmoore/fictrac" class="linkto">FicTrac</a>, an open-source
-                            software that derives the animal's walking trajectory from video information captured by a
-                            single camera.
-                        </p>
-                        <hr/>
-                        <h4>Olfactometer</h4>
-                        <p>
-                            Odors are diluted before being delivered to the animal. Two mass flow controllers (MFC) are
-                            used to manage the odor concentration. One controller adjusts the flow rate of the air
-                            stream carrying the odor, while the other regulates the flow rate of the dilution air
-                            stream. These two streams are combined in a mixing chamber before being delivered to the
-                            animal. The schematic diagram is shown below:
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-            <hr/>
-
-            <img src="assets/img/portfolio/odorVR/DilutionFlow.JPG"
-                 class="portfolio-detail-image img-fluid d-block mx-auto"/>
-            <hr/>
-            <div class="row gy-4 portfolio-detail-div">
-
-                <div class="col-lg-4">
-                    <img src="assets/img/portfolio/odorVR/response_time.jpg"
-                         class="portfolio-detail-image img-fluid d-block mx-auto"/>
-                    <p class="text-center">Response Time: X-axis represents time since the command was sent (second), Y-axis
-                        represents flow rate (target is 50)</p>
-
-                    <img src="assets/img/portfolio/odorVR/pulse.jpg"
-                         class="portfolio-detail-image img-fluid d-block mx-auto"/>
-                    <p class="text-center">PID Readout (Pulse Mode)</p>
-
-                </div>
-
-                <div class="col-lg-8">
-
-                    <div class="portfolio-description">
 
                         <p>
-                            Python code has been developed for communicating with the MFCs via serial ports and is
-                            integrated with closed-loop control, as described in the following section. The code takes
-                            the final total flow rate and target dilution factor as input, determining the optimal
-                            combination of dilution MFC flow rate and odor MFC flow rate. These flow rates are then sent
-                            as updated setpoints to both MFCs as commands.
-                        </p>
-                        <p class="ppp">
-                            Alicat MC Series MFCs are utilized for their accuracy, rapid response time, and
-                            compatibility with serial communication. After adjusting the PD parameters, the two
-                            controllers achieve a response time of less than 100 milliseconds when the input is
-                            compressed air at 30 psi.
-                        </p>
-                        <p class="ppp">
-                            The odor air stream and dilution air stream merge at an odor mixing chamber capable of
-                            accommodating up to eight odor inputs. A metal grid is placed at the output of the mixing
-                            chamber to enhance turbulence for more efficient mixing. The output port's diameter measures
-                            13.7mm. When the final output flow rate is set to 500 Standard Cubic Centimeters(SCCM), the
-                            air stream velocity exiting the port is 5.6 cm/s.
-                        </p>
-                        <p class="ppp">
-                            A photoionization detector (PID) is employed to assess the olfactometer's performance. While
-                            the odor can be effectively delivered in pulses, concentration fluctuations occur when the
-                            odor is continuously disseminated. This issue may result from odor depletion within the odor
-                            bottle.
+                            In the development process, I actively collaborated with my biologist colleagues to ensure
+                            that the design of this system met their specific needs and requirements. I also made
+                            certain that the system was user-friendly in both software and hardware interaction,
+                            providing a seamless and intuitive experience for the users.
                         </p>
                     </div>
                 </div>
@@ -339,6 +270,7 @@
         relatedSkills.classList.toggle('collapse');
     });
 </script>
+
 <script>
     // Function to set the email address as the href attribute
     function setEmailLink() {

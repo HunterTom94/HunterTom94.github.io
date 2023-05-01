@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Odor VR</title>
+    <title>Gut Cell Imaging Analysis</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -129,10 +129,10 @@
         <div class="container">
 
             <div class="d-flex justify-content-between align-items-center">
-                <h2>Odor VR</h2>
+                <h2>Gut Cell Imaging Analysis</h2>
                 <ol>
                     <li><a href="index.html">Home</a></li>
-                    <li>Odor VR</li>
+                    <li>Gut Cell Imaging Analysis</li>
                 </ol>
             </div>
 
@@ -144,36 +144,25 @@
         <div class="container">
             <div class="portfolio-info">
                 <p>
-                    This project is an olfactory VR system, designed to measure odor-guided behaviors in <a
-                        href="https://en.wikipedia.org/wiki/Drosophila_melanogaster" class="linkto" target="blank">Drosophila
-                    melanogaster (fruit fly)</a>. The system is composed of three parts: a spherical treadmill, an
-                    olfactometer (for controlled odor delivery), and a feedback system (to adjust odor delivery based on
-                    the fly's position within the virtual world).
+                    This project is a data processing pipeline designed to automatically extract and analyze individual
+                    cell activity information from <a href="https://en.wikipedia.org/wiki/Calcium_imaging"
+                                                      class="linkto" target="blank">calcium imaging</a> videos. The goal
+                    is to eliminate excessive manual effort and facilitate the study of biological questions related to
+                    <a href="https://en.wikipedia.org/wiki/Enteroendocrine_cell" class="linkto" target="blank">enteroendocrine
+                        cells</a> in the mid-gut of <a href="https://en.wikipedia.org/wiki/Drosophila_melanogaster"
+                                                       class="linkto" target="blank">Drosophila melanogaster (fruit
+                    fly)</a>. While the pipeline is fine-tuned for this study, it has the potential to be applied to
+                    imaging videos of other tissues or animals.
                 </p>
-                <p class="portfolio-info-description-last-p"> The system is specifically designed to be compatible with
-                    two-photon and three-photon imaging, enabling simultaneous recording of neuronal activity in the
-                    fruit fly's brain and its behavioral responses.
+
+                <p class="portfolio-info-description-last-p"> This project can be divided into two main parts:
+                    extracting individual cell activities and further analysis of these activities.
                 </p>
 
                 <div class="skills-date-container">
                     <p>Related Skills:</p>
                     <div class="skills-container">
-                        <div class="skill-group">
-                            <ul>
-                                <li class="expandable-skills" data-toggle="collapse"
-                                    data-target="#hardware-related-skills">
-                                    <i class="fas fa-caret-right"></i>
-                                    <strong>Hardware</strong>
-                                </li>
-                            </ul>
-                            <div id="hardware-related-skills" class="collapse show">
-                                <ul>
-                                    <li>Compressed Gas Cylinder Handling</li>
-                                    <li>PID Tuning and Control for Mass Flow Controllers</li>
-                                    <li>Custom Apparatus Assembly and Setup</li>
-                                </ul>
-                            </div>
-                        </div>
+
                         <div class="skill-group">
                             <ul>
                                 <li class="expandable-skills" data-toggle="collapse"
@@ -185,8 +174,27 @@
                             <div id="software-related-skills" class="collapse show">
                                 <ul>
                                     <li>Python</li>
-                                    <li>PySerial</li>
-                                    <li>MATLAB</li>
+                                    <li>OpenCV</li>
+                                    <li>ImageJ</li>
+                                    <li>User Interface</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <ul>
+                                <li class="expandable-skills" data-toggle="collapse"
+                                    data-target="#hardware-related-skills">
+                                    <i class="fas fa-caret-right"></i>
+                                    <strong>Data Analysis</strong>
+                                </li>
+                            </ul>
+                            <div id="hardware-related-skills" class="collapse show">
+                                <ul>
+                                    <li>Image Processing</li>
+                                    <li>Dimension Reduction Techniques - UMAP, tSNE, PCA etc.
+                                    <li>Unsupervised Machine Learning</li>
+                                    <li>scikit-learn</li>
                                 </ul>
                             </div>
                         </div>
@@ -200,108 +208,79 @@
 
             <div class="row gy-4 portfolio-detail-div">
 
-                <div class="col-lg-4">
-                    <img src="assets/img/portfolio/odorVR/Setup.jpg"
-                         class="portfolio-detail-image img-fluid d-block mx-auto"/>
-                    <p class="text-center">Setup Overview</p>
-
-                    <img src="assets/img/portfolio/odorVR/tethered_fly.jpg"
-                         class="portfolio-detail-image img-fluid d-block mx-auto"/>
-                    <p class="text-center">Close-up of Tethered Fly (Fly will be lowered during the experiment)</p>
+                <div class="col-lg-1">
 
                 </div>
 
-                <div class="col-lg-8">
+                <div class="col-lg-10">
 
                     <div class="portfolio-description">
 
-                        <h4>Spherical Treadmill</h4>
+                        <img src="assets/img/portfolio/GutImaging/Sample%20Video.gif"
+                             class="portfolio-detail-image img-fluid d-block mx-auto"/>
+                        <p class="text-center portfolio-figure-caption">A sample calcium imaging video recording of gut
+                            cells</p>
+
+                        <h4>Background Subtraction</h4>
                         <p>
-                            Initially invented by <a href="https://link.springer.com/article/10.1007/BF00360648"
-                                                     class="linkto">Buchner in 1976</a>, the ball treadmill tracking
-                            system has since evolved into a relatively mature technique. In this system, an animal is
-                            tethered and placed on top of a floating sphere, which is maintained aloft by a gentle air
-                            stream from below.
+                            Background noise can come from both the camera's intrinsic properties and the slightest
+                            ambient light. Background noise lowers the contrast between cell bodies and the background,
+                            making cell bodies more difficult to identify. To reduce background noise, I used the
+                            Rolling-Ball algorithm to subtract the background from the raw video. This algorithm has the
+                            advantage of taking into account the unevenness of the background. Also, it is a built-in
+                            feature in <a href="https://imagej.net/Fiji" class="linkto" target="blank">ImageJ Fiji</a>.
                         </p>
-                        <p class="ppp">
-                            As the animal walks, the sphere rotates, simulating the effect of the animal moving on a
-                            two-dimensional plane. The walking trajectory of the animal is inferred from the rotation of
-                            the sphere.
-                        </p>
-                        <p class="ppp">
-                            Video recording is employed to gauge the sphere's rotation and the movement of the tethered
-                            fly. Since 1976, methods have advanced, and this project utilizes <a
-                                href="https://github.com/rjdmoore/fictrac" class="linkto">FicTrac</a>, an open-source
-                            software that derives the animal's walking trajectory from video information captured by a
-                            single camera.
-                        </p>
-                        <hr/>
-                        <h4>Olfactometer</h4>
+
                         <p>
-                            Odors are diluted before being delivered to the animal. Two mass flow controllers (MFC) are
-                            used to manage the odor concentration. One controller adjusts the flow rate of the air
-                            stream carrying the odor, while the other regulates the flow rate of the dilution air
-                            stream. These two streams are combined in a mixing chamber before being delivered to the
-                            animal. The schematic diagram is shown below:
+                            To understand the rolling ball algorithm intuitively, imagine the 2D signal as a 3D contour
+                            surface, with the value at each position as its height. The calculated background is the <a
+                                href="https://www.google.com/search?q=rolling+ball+background+subtraction&amp;client=firefox-b-1-d&amp;hl=en&amp;sxsrf=ACYBGNSYN6MZjtLi1Jul5DKntSy0NuEa8A:1576568156929&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwj6s9SHlrzmAhW_HjQIHdJGAxAQ_AUoAXoECAwQAw&amp;biw=1920&amp;bih=966"
+                                class="linkto" target="blank">trajectory</a> of a ball rolling over the bottom of this
+                            surface. Mathematically, the algorithm is equivalent to eroding and dilating with a
+                            spherical structuring element [1]. The input of this morphological operation is the 3D
+                            contour mentioned above, and the result of this operation is the calculated background.
+                            Thus, the diameter of the ball should not be smaller than the signal and was determined to
+                            be 50 pixels empirically.
                         </p>
+
+                        <img src="assets/img/portfolio/GutImaging/BackgroundSubtraction.gif"
+                             class="portfolio-detail-image img-fluid d-block mx-auto"/>
+                        <p class="text-center portfolio-figure-caption">Before/After background subtraction</p>
+
+                        <h4>Cell Body Identification</h4>
+                        <p>Cells are identified via edge detection using a Laplacian filter. The filter was applied to
+                            the maximum projection along the time axis of the calcium imaging video. To ensure a region
+                            of interest (ROI) completely encloses a cell and to minimize residual movements not fully
+                            corrected by motion correction, an additional Gaussian blur filter was applied before the
+                            Laplacian filter.</p>
+
+                        <img src="assets/img/portfolio/GutImaging/SARFIARawGaussianROI.gif"
+                             class="portfolio-detail-image img-fluid d-block mx-auto"/>
+                        <p class="text-center portfolio-figure-caption">Raw max projection/Gaussian filter/Identified
+                            ROI</p>
+
+                        <h4>Gut Region Specification</h4>
+                        <p>To obtain the spatial positions of each ROI, I developed a user interface to help assign each
+                            ROI an anterior-posterior coordinate in proportion to the entire length of the cell
+                            population. With the help of overlaying a bright field gut image, the user draws out the
+                            boundary of the gut, and the program automatically divides the gut into segments with the
+                            same pre-defined width.
+                        </p>
+
+                        <img src="assets/img/portfolio/GutImaging/segment_image.jpeg"
+                             class="portfolio-detail-image img-fluid d-block mx-auto"/>
+                        <p class="text-center portfolio-figure-caption">A gut divided into segments (Cells indicated
+                            with pink ROIs)</p>
+
+
                     </div>
                 </div>
 
-            </div>
-            <hr/>
-
-            <img src="assets/img/portfolio/odorVR/DilutionFlow.JPG"
-                 class="portfolio-detail-image img-fluid d-block mx-auto"/>
-            <hr/>
-            <div class="row gy-4 portfolio-detail-div">
-
-                <div class="col-lg-4">
-                    <img src="assets/img/portfolio/odorVR/response_time.jpg"
-                         class="portfolio-detail-image img-fluid d-block mx-auto"/>
-                    <p class="text-center">Response Time: X-axis represents time since the command was sent (second), Y-axis
-                        represents flow rate (target is 50)</p>
-
-                    <img src="assets/img/portfolio/odorVR/pulse.jpg"
-                         class="portfolio-detail-image img-fluid d-block mx-auto"/>
-                    <p class="text-center">PID Readout (Pulse Mode)</p>
+                <div class="col-lg-1">
 
                 </div>
 
-                <div class="col-lg-8">
-
-                    <div class="portfolio-description">
-
-                        <p>
-                            Python code has been developed for communicating with the MFCs via serial ports and is
-                            integrated with closed-loop control, as described in the following section. The code takes
-                            the final total flow rate and target dilution factor as input, determining the optimal
-                            combination of dilution MFC flow rate and odor MFC flow rate. These flow rates are then sent
-                            as updated setpoints to both MFCs as commands.
-                        </p>
-                        <p class="ppp">
-                            Alicat MC Series MFCs are utilized for their accuracy, rapid response time, and
-                            compatibility with serial communication. After adjusting the PD parameters, the two
-                            controllers achieve a response time of less than 100 milliseconds when the input is
-                            compressed air at 30 psi.
-                        </p>
-                        <p class="ppp">
-                            The odor air stream and dilution air stream merge at an odor mixing chamber capable of
-                            accommodating up to eight odor inputs. A metal grid is placed at the output of the mixing
-                            chamber to enhance turbulence for more efficient mixing. The output port's diameter measures
-                            13.7mm. When the final output flow rate is set to 500 Standard Cubic Centimeters(SCCM), the
-                            air stream velocity exiting the port is 5.6 cm/s.
-                        </p>
-                        <p class="ppp">
-                            A photoionization detector (PID) is employed to assess the olfactometer's performance. While
-                            the odor can be effectively delivered in pulses, concentration fluctuations occur when the
-                            odor is continuously disseminated. This issue may result from odor depletion within the odor
-                            bottle.
-                        </p>
-                    </div>
-                </div>
-
             </div>
-
 
         </div>
     </section><!-- End Portfolio Details Section -->
