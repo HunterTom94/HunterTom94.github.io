@@ -4,25 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="Added BPClip&#10;&#10;Fixed mobile compatibility">
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="resize img">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/hero-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/GutImaging/Sample Video.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/GutImaging/Sample Video.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/SpecTracle.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/SpecTracle.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/WalkingSample.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/WalkingSample.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/peltier/PCB_only.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/peltier/PCB_only.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/peltier/PCB_with_peltier.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/peltier/PCB_with_peltier.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/portfolio-details-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/portfolio-details-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/portfolio-details-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/valve/SpikeHold.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/valve/SpikeHold.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/valve/ValvePCB.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/portfolio/valve/ValvePCB.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/testimonials/testimonials-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/testimonials/testimonials-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/testimonials/testimonials-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/testimonials/testimonials-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/testimonials/testimonials-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BPClip.html" beforeDir="false" afterPath="$PROJECT_DIR$/BPClip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GutImaging.html" beforeDir="false" afterPath="$PROJECT_DIR$/GutImaging.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ValveControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/ValveControl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +79,7 @@
       <workItem from="1682795026056" duration="58369000" />
       <workItem from="1682980889050" duration="1529000" />
       <workItem from="1682982437365" duration="2311000" />
-      <workItem from="1682992196166" duration="9903000" />
+      <workItem from="1682992196166" duration="14089000" />
     </task>
     <task id="LOCAL-00001" summary="new template">
       <created>1682980931805</created>
@@ -136,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683006132604</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="resize img">
+      <created>1683009704078</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683009704078</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +153,8 @@
     <MESSAGE value="cname" />
     <MESSAGE value="updated peltier name" />
     <MESSAGE value="Added BPClip&#10;&#10;Fixed mobile compatibility" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added BPClip&#10;&#10;Fixed mobile compatibility" />
+    <MESSAGE value="resize img" />
+    <option name="LAST_COMMIT_MESSAGE" value="resize img" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
