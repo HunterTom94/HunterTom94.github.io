@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="updated bpclip link">
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="updated peltier name">
+      <change afterPath="$PROJECT_DIR$/BPClip.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GutImaging.html" beforeDir="false" afterPath="$PROJECT_DIR$/GutImaging.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OdorVR.html" beforeDir="false" afterPath="$PROJECT_DIR$/OdorVR.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ValveControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/ValveControl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peltierStage.html" beforeDir="false" afterPath="$PROJECT_DIR$/peltierStage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +56,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CodeRepos\PersonalWebsite" />
       <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\peltier" />
       <recent name="C:\Users\tomxu\Downloads\iPortfolio" />
       <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\GutImaging" />
       <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\valve" />
-      <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\odorVR" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\bpclip" />
@@ -74,7 +81,8 @@
       <workItem from="1682794989966" duration="20000" />
       <workItem from="1682795026056" duration="58369000" />
       <workItem from="1682980889050" duration="1529000" />
-      <workItem from="1682982437365" duration="335000" />
+      <workItem from="1682982437365" duration="2311000" />
+      <workItem from="1682992196166" duration="8272000" />
     </task>
     <task id="LOCAL-00001" summary="new template">
       <created>1682980931805</created>
@@ -90,7 +98,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682981227230</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new template">
+      <created>1682983335377</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682983335377</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cname">
+      <created>1682985958362</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682985958362</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated peltier name">
+      <created>1682986632489</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682986632489</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,9 +137,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new template" />
     <MESSAGE value="updated bpclip link" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated bpclip link" />
+    <MESSAGE value="new template" />
+    <MESSAGE value="cname" />
+    <MESSAGE value="updated peltier name" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated peltier name" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

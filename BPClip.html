@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Gut Cell Imaging Analysis</title>
+    <title>BPClip</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -139,10 +139,10 @@
         <div class="container">
 
             <div class="d-flex justify-content-between align-items-center">
-                <h2>Gut Cell Imaging Analysis</h2>
+                <h2>BPClip</h2>
                 <ol>
                     <li><a href="index.html">Home</a></li>
-                    <li>Gut Cell Imaging Analysis</li>
+                    <li>BPClip</li>
                 </ol>
             </div>
 
@@ -153,26 +153,18 @@
     <section id="portfolio-details" class="portfolio-details">
         <div class="container">
             <div class="portfolio-info">
-                <p>
-                    This project is a data processing pipeline designed to automatically extract and analyze individual
-                    cell activity information from <a href="https://en.wikipedia.org/wiki/Calcium_imaging"
-                                                      class="linkto" target="blank">calcium imaging</a> videos. The goal
-                    is to eliminate excessive manual effort and facilitate the study of biological questions related to
-                    <a href="https://en.wikipedia.org/wiki/Enteroendocrine_cell" class="linkto" target="blank">enteroendocrine
-                        cells</a> in the mid-gut of <a href="https://en.wikipedia.org/wiki/Drosophila_melanogaster"
-                                                       class="linkto" target="blank">Drosophila melanogaster (fruit
-                    fly)</a>. While the pipeline is fine-tuned for this study, it has the potential to be applied to
-                    imaging videos of other tissues or animals.
-                </p>
-
-                <p class="portfolio-info-description-last-p"> This project can be divided into two main parts:
-                    extracting individual cell activities and further analysis of these activities.
+                <p class="portfolio-info-description-last-p"> BPClip is a low-cost 3D-printed smartphone attachment for
+                    blood pressure
+                    monitoring that utilizes a smartphone's camera and flashlight. This device aims
+                    to make blood pressure measurement more accessible, particularly in resource-limited
+                    settings. By promoting the use of this affordable technology, the intention is to facilitate better
+                    management of
+                    hypertension and overall health for individuals worldwide.
                 </p>
 
                 <div class="skills-date-container">
                     <p>Related Skills:</p>
                     <div class="skills-container">
-
                         <div class="skill-group">
                             <ul>
                                 <li class="expandable-skills" data-toggle="collapse"
@@ -183,111 +175,52 @@
                             </ul>
                             <div id="software-related-skills" class="collapse show">
                                 <ul>
+                                    <li>Android Development - Kotlin, Java</li>
+                                    <li>Android - Realtime Image Analysis w/ OpenCV</li>
+                                    <li>Android - Live Plotting, Signal Processing</li>
                                     <li>Python</li>
-                                    <li>OpenCV</li>
-                                    <li>ImageJ</li>
-                                    <li>User Interface</li>
                                 </ul>
                             </div>
                         </div>
-
                         <div class="skill-group">
                             <ul>
                                 <li class="expandable-skills" data-toggle="collapse"
                                     data-target="#hardware-related-skills">
                                     <i class="fas fa-caret-right"></i>
-                                    <strong>Data Analysis</strong>
+                                    <strong>Hardware</strong>
                                 </li>
                             </ul>
                             <div id="hardware-related-skills" class="collapse show">
                                 <ul>
-                                    <li>Image Processing</li>
-                                    <li>Dimension Reduction Techniques - UMAP, tSNE, PCA etc.
-                                    <li>Unsupervised Machine Learning</li>
-                                    <li>scikit-learn</li>
+                                    <li>3D Printing - Resin</li>
+                                    <li>3D Modeling - SolidWorks</li>
+                                    <li>Laser Cutting</li>
                                 </ul>
                             </div>
                         </div>
-
                     </div>
-                    <!--                    <p class="portfolio-date">Date: April, 2019</p>-->
                 </div>
 
-
+                <div class="portfolio-paper">
+                    <h5>This work has been accepted by <b>Nature Scientific Report</b>, and will be published soon. <br> <br><a
+                            href="https://www.researchsquare.com/article/rs-2561946/latest"
+                            target="_blank"> Preprint Link </a></h5>
+                </div>
             </div>
 
             <div class="row gy-4 portfolio-detail-div">
-
-                <div class="col-lg-1">
-
+                <div class="portfolio-video-caption">
+                    <h3>Concept Video</h3>
+                </div>
+                <div class="video-container">
+                    <iframe src="https://drive.google.com/file/d/1PJ63CUlj0IUuDuTFMPPxEx_wFsCfs3u2/preview" frameborder="0" allowfullscreen></iframe>
                 </div>
 
-                <div class="col-lg-10">
-
-                    <div class="portfolio-description">
-
-                        <img src="assets/img/portfolio/GutImaging/Sample%20Video.gif"
-                             class="portfolio-detail-image img-fluid d-block mx-auto"/>
-                        <p class="text-center portfolio-figure-caption">A sample calcium imaging video recording of gut
-                            cells</p>
-
-                        <h4>Background Subtraction</h4>
-                        <p>
-                            Background noise can come from both the camera's intrinsic properties and the slightest
-                            ambient light. Background noise lowers the contrast between cell bodies and the background,
-                            making cell bodies more difficult to identify. To reduce background noise, I used the
-                            Rolling-Ball algorithm to subtract the background from the raw video. This algorithm has the
-                            advantage of taking into account the unevenness of the background. Also, it is a built-in
-                            feature in <a href="https://imagej.net/Fiji" class="linkto" target="blank">ImageJ Fiji</a>.
-                        </p>
-
-                        <p>
-                            To understand the rolling ball algorithm intuitively, imagine the 2D signal as a 3D contour
-                            surface, with the value at each position as its height. The calculated background is the <a
-                                href="https://www.google.com/search?q=rolling+ball+background+subtraction&amp;client=firefox-b-1-d&amp;hl=en&amp;sxsrf=ACYBGNSYN6MZjtLi1Jul5DKntSy0NuEa8A:1576568156929&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwj6s9SHlrzmAhW_HjQIHdJGAxAQ_AUoAXoECAwQAw&amp;biw=1920&amp;bih=966"
-                                class="linkto" target="blank">trajectory</a> of a ball rolling over the bottom of this
-                            surface. Mathematically, the algorithm is equivalent to eroding and dilating with a
-                            spherical structuring element [1]. The input of this morphological operation is the 3D
-                            contour mentioned above, and the result of this operation is the calculated background.
-                            Thus, the diameter of the ball should not be smaller than the signal and was determined to
-                            be 50 pixels empirically.
-                        </p>
-
-                        <img src="assets/img/portfolio/GutImaging/BackgroundSubtraction.gif"
-                             class="portfolio-detail-image img-fluid d-block mx-auto"/>
-                        <p class="text-center portfolio-figure-caption">Before/After background subtraction</p>
-
-                        <h4>Cell Body Identification</h4>
-                        <p>Cells are identified via edge detection using a Laplacian filter. The filter was applied to
-                            the maximum projection along the time axis of the calcium imaging video. To ensure a region
-                            of interest (ROI) completely encloses a cell and to minimize residual movements not fully
-                            corrected by motion correction, an additional Gaussian blur filter was applied before the
-                            Laplacian filter.</p>
-
-                        <img src="assets/img/portfolio/GutImaging/SARFIARawGaussianROI.gif"
-                             class="portfolio-detail-image img-fluid d-block mx-auto"/>
-                        <p class="text-center portfolio-figure-caption">Raw max projection/Gaussian filter/Identified
-                            ROI</p>
-
-                        <h4>Gut Region Specification</h4>
-                        <p>To obtain the spatial positions of each ROI, I developed a user interface to help assign each
-                            ROI an anterior-posterior coordinate in proportion to the entire length of the cell
-                            population. With the help of overlaying a bright field gut image, the user draws out the
-                            boundary of the gut, and the program automatically divides the gut into segments with the
-                            same pre-defined width.
-                        </p>
-
-                        <img src="assets/img/portfolio/GutImaging/segment_image.jpeg"
-                             class="portfolio-detail-image img-fluid d-block mx-auto"/>
-                        <p class="text-center portfolio-figure-caption">A gut divided into segments (Cells indicated
-                            with pink ROIs)</p>
-
-
-                    </div>
+                <div class="portfolio-video-caption">
+                    <h3><br>Demo Video</h3>
                 </div>
-
-                <div class="col-lg-1">
-
+                <div class="video-container">
+                    <iframe src="https://drive.google.com/file/d/1kSfHPg9Yv1jIYGWZbLnz3yJM5w2hC1U_/preview" frameborder="0" allowfullscreen></iframe>
                 </div>
 
             </div>
@@ -328,6 +261,7 @@
         relatedSkills.classList.toggle('collapse');
     });
 </script>
+
 <script>
     // Function to set the email address as the href attribute
     function setEmailLink() {
@@ -343,6 +277,7 @@
     // Call the function to set the email address as the href attribute
     setEmailLink();
 </script>
+
 <!--Jump to Specific Section in Home Page-->
 <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -397,6 +332,7 @@
         });
     });
 </script>
+
 <!--Fix Header Blocks Main Content-->
 <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -435,6 +371,7 @@
         updateMarginTop();
     });
 </script>
+
 </body>
 
 </html>
