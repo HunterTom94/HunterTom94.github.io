@@ -35,6 +35,16 @@
 
 }
 
+.separator {
+  background-color: rgba(221, 221, 221, 0.5);
+  height: 2px; /* Adjust the thickness of the separator line */
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  width: 90%; /* Adjust the width of the separator line */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -416,6 +426,7 @@ h6 {
   .nav-menu a.icon-link,
   .nav-menu a.icon-link:focus {
     padding-bottom: 5px; /* Adjust this value to your desired bottom padding */
+    /*margin-bottom: 0px;*/
   }
 }
 

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="added Nature Paper link">
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="update YouTube video">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BPClip.html" beforeDir="false" afterPath="$PROJECT_DIR$/BPClip.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
@@ -77,7 +77,7 @@
       <workItem from="1682795026056" duration="58369000" />
       <workItem from="1682980889050" duration="1529000" />
       <workItem from="1682982437365" duration="2311000" />
-      <workItem from="1682992196166" duration="16846000" />
+      <workItem from="1682992196166" duration="17790000" />
     </task>
     <task id="LOCAL-00001" summary="new template">
       <created>1682980931805</created>
@@ -135,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683052935774</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update YouTube video">
+      <created>1683055648813</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683055648813</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +167,8 @@
     <MESSAGE value="Added BPClip&#10;&#10;Fixed mobile compatibility" />
     <MESSAGE value="resize img" />
     <MESSAGE value="added Nature Paper link" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Nature Paper link" />
+    <MESSAGE value="update YouTube video" />
+    <option name="LAST_COMMIT_MESSAGE" value="update YouTube video" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
