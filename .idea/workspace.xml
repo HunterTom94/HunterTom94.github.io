@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="resize img">
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="added Nature Paper link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BPClip.html" beforeDir="false" afterPath="$PROJECT_DIR$/BPClip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GutImaging.html" beforeDir="false" afterPath="$PROJECT_DIR$/GutImaging.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ValveControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/ValveControl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,7 @@
       <workItem from="1682795026056" duration="58369000" />
       <workItem from="1682980889050" duration="1529000" />
       <workItem from="1682982437365" duration="2311000" />
-      <workItem from="1682992196166" duration="14089000" />
+      <workItem from="1682992196166" duration="16846000" />
     </task>
     <task id="LOCAL-00001" summary="new template">
       <created>1682980931805</created>
@@ -130,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683009704078</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added Nature Paper link">
+      <created>1683052935774</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683052935774</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +159,8 @@
     <MESSAGE value="updated peltier name" />
     <MESSAGE value="Added BPClip&#10;&#10;Fixed mobile compatibility" />
     <MESSAGE value="resize img" />
-    <option name="LAST_COMMIT_MESSAGE" value="resize img" />
+    <MESSAGE value="added Nature Paper link" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Nature Paper link" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -189,7 +189,7 @@ h6 {
 
   #header1 {
     display: block;
-    padding: 10px 0;
+    padding: 1px 0;
     overflow: hidden;
     background: #040b14;
     position: fixed;
@@ -373,22 +373,52 @@ h6 {
   left: 0;
 }
 
+/*@media (max-width: 853px) {*/
+/*  .nav-menu {*/
+/*    padding-top: 0;*/
+/*  }*/
+
+/*  .nav-menu a,*/
+/*  .nav-menu a:focus {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    color: #a8a9b4;*/
+/*    padding: 0px 15px 15px 15px;*/
+/*    margin-bottom: 0px;*/
+/*    transition: 0.3s;*/
+/*    font-size: 15px;*/
+/*  }*/
+
+/*  .icon-link {*/
+/*    padding-bottom: 0px;*/
+/*  }*/
+
+/*}*/
+
 @media (max-width: 853px) {
   .nav-menu {
     padding-top: 0;
   }
 
   .nav-menu a,
-  .nav-menu a:focus {
+  .nav-menu a:focus,
+  .nav-menu a.icon-link,
+  .nav-menu a.icon-link:focus {
     display: flex;
     align-items: center;
     color: #a8a9b4;
-    padding: 5px 15px;
-    margin-bottom: 8px;
+    padding: 0px 15px 15px 15px;
+    margin-bottom: 0px;
     transition: 0.3s;
     font-size: 15px;
   }
+
+  .nav-menu a.icon-link,
+  .nav-menu a.icon-link:focus {
+    padding-bottom: 5px; /* Adjust this value to your desired bottom padding */
+  }
 }
+
 
 /*--------------------------------------------------------------
 # Hero Section
