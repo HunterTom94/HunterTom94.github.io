@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="reorganized research projects" />
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="updated headers">
+      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/bpclip/Fig3V5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/bpclip/Fig4_final.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/bpclip/Fig_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/bpclip/Figure_1_final.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BPClip.html" beforeDir="false" afterPath="$PROJECT_DIR$/BPClip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GutImaging.html" beforeDir="false" afterPath="$PROJECT_DIR$/GutImaging.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OdorVR.html" beforeDir="false" afterPath="$PROJECT_DIR$/OdorVR.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ValveControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/ValveControl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peltierStage.html" beforeDir="false" afterPath="$PROJECT_DIR$/peltierStage.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,27 +44,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/CodeRepos/PersonalWebsite&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/CodeRepos/PersonalWebsite/assets/img/portfolio/bpclip",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CodeRepos\PersonalWebsite\assets\img\portfolio\bpclip" />
       <recent name="E:\CodeRepos\PersonalWebsite" />
       <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\peltier" />
       <recent name="C:\Users\tomxu\Downloads\iPortfolio" />
       <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\GutImaging" />
-      <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\valve" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\bpclip" />
@@ -73,7 +86,9 @@
       <workItem from="1682795026056" duration="58369000" />
       <workItem from="1682980889050" duration="1529000" />
       <workItem from="1682982437365" duration="2311000" />
-      <workItem from="1682992196166" duration="27275000" />
+      <workItem from="1682992196166" duration="28628000" />
+      <workItem from="1683746141045" duration="150000" />
+      <workItem from="1684260351651" duration="3132000" />
     </task>
     <task id="LOCAL-00001" summary="new template">
       <created>1682980931805</created>
@@ -152,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683098771588</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updated headers">
+      <created>1683100342681</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683100342681</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +202,8 @@
     <MESSAGE value="update YouTube video" />
     <MESSAGE value="added separator between YouTube video" />
     <MESSAGE value="reorganized research projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="reorganized research projects" />
+    <MESSAGE value="updated headers" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated headers" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

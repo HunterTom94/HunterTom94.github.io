@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XKHC4D5WW8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-XKHC4D5WW8');
+    </script>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -208,21 +217,50 @@
                     <h5>This work has been accepted by <b>Nature Scientific Report</b>, and will be published soon. <br> <br><a
                             href="https://www.researchsquare.com/article/rs-2561946/latest"
                             target="_blank"> Ultra-low-cost Mechanical Smartphone Attachment for No-Calibration Blood Pressure Measurement </a></h5>
+                    <div class="clickable-menu">
+                        <ul>
+                            <li><a href="#figure1">Figure 1 - System Overview</a></li>
+                            <li><a href="#figure2">Figure 2 - Prototype Component Diagram:</a></li>
+                            <li><a href="#figure3">Figure 3 - System Usability</a></li>
+                            <li><a href="#figure4">Figure 4 - Blood Pressure Estimation Accuracy</a></li>
+                            <li><a href="#video1">Video 1 - BPClip Concept Illustration</a></li>
+                            <li><a href="#video2">Video 2 - BPClip Use Demonstration</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
             <div class="row gy-4 portfolio-detail-div">
+                <div class="figure-container">
+                    <h3>Figures</h3>
+                    <figure id="figure1">
+                        <img src="assets/img/portfolio/bpclip/Figure_1_final.png" alt="Figure 1"/>
+                        <figcaption>Figure 1: <b>System Overview:</b> Using finger oscillometry to calculate BP. (A) Cuff-based BP monitor (B) Example of an oscillogram obtained from an automated cuff. SBP, MBP, and DBP can be calculated from the shape of the envelope of the oscillogram. (C) Using BPClip to measure BP. (D) Light emitted from the smartphone flash travels through the light guide and illuminates the finger. The reflected light travels through the imaging path via a pinhole to reach the camera, forming an image of a red circle. The pulse information is encoded by the brightness of the circle. The pressing force information is encoded by the size of the circle. As the applied force increases, the circle diameter increases. (E) left: pulse and force data extracted from the red circle. right: oscillogram reconstructed from the data on the left. </figcaption>
+                    </figure>
+                    <figure id="figure2">
+                        <img src="assets/img/portfolio/bpclip/Fig_text.png" alt="Figure 2"/>
+                        <figcaption>Figure 2: <b>Prototype Component Diagram:</b> Details of the hardware prototype (A) Fully assembled BPClip and disassembled components (B) BPClip mounted on a phone (C) X-ray view of assembled BPClip. Legend: 1. notch to align finger 2. flange to constrain finger angle 3. covers to ensure a flat pressing surface 4. rod to ensure smooth pressing 5. tube to ensure smooth pressing 6. spring 7. o-rings to avoid light leakage 8. clip base 9. anti-slip pad 10&11. clamp screw</figcaption>
+                    </figure>
+                    <figure id="figure3">
+                        <img src="assets/img/portfolio/bpclip/Fig3V5.png" alt="Figure 3"/>
+                        <figcaption>Figure 3: <b>System Usability:</b> Using BPClip (A) The base of the right index fingernail is aligned with the notch. (B) The user holds the phone and clip, with BPClip at heart level. (C) The (user interface) UI layout of the app. Legend: a. button to record force range adjustment b. real-time camera image preview c. Force indicator, red line indicates the current force, green line indicates the target force level d. force range indicator. Red circle indicates the force is out of range. Yellow circle indicates the force is within the range, and the user needs to hold for 2 more seconds to start data recording. Green circle indicates the data is currently being recorded and a 5-second progress bar will show up e. real-time pulse signal display</figcaption>
+                    </figure>
+                    <figure id="figure4">
+                        <img src="assets/img/portfolio/bpclip/Fig4_final.png" alt="Figure 4"/>
+                        <figcaption>Figure 4: <b>Blood Pressure Estimation Accuracy:</b> Accuracy of blood pressure estimation with Leave-Two-Subjects-Out Validation (12-fold cross-validation with N=24 subjects) shown in correlation and Bland-Altman plots. The dashed lines in correlation plots represent the best-fit line, where the measured value equals the predicted value.</figcaption>
+                    </figure>
+                </div>
                 <div class="portfolio-video-caption">
                     <h3>BPClip Concept Illustration Video</h3>
                 </div>
-                <div class="video-container">
+                <div class="video-container" id="video1">
                     <iframe src="https://www.youtube.com/embed/h3aHkRPipVk" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="separator"></div>
                 <div class="portfolio-video-caption">
                     <h3><br>BPClip Use Demonstration Videoo</h3>
                 </div>
-                <div class="video-container">
+                <div class="video-container" id="video2">
                     <iframe src="https://www.youtube.com/embed/AjSC3VKsWjk" frameborder="0" allowfullscreen></iframe>
                 </div>
 

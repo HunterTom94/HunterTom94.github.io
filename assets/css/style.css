@@ -1023,6 +1023,8 @@ font-size: 18px;
   padding-top: 30px; /* padding for any controls or titles */
   height: 0;
   overflow: hidden;
+  /*width: 80%; !* set the width of the video container to 80% of its parent *!*/
+  /*margin: 0 auto;*/
 }
 
 .video-container iframe {
@@ -1035,6 +1037,61 @@ font-size: 18px;
 
 .portfolio-video-caption {
   padding-left: 50px;
+}
+
+.figure-container {
+  width: 100%;
+}
+
+.figure-container figure {
+  margin: 40px 0; /* adjust as needed */
+  text-align: center;
+  border-bottom: 1px solid #ccc; /* add a border at the bottom of each figure as a divider */
+  padding-bottom: 20px; /* add some space between the figure and the divider */
+}
+
+.figure-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*.figure-container figure:last-child {*/
+  /*border-bottom: none; !* remove the border for the last figure *!*/
+/*}*/
+
+.figure-container figcaption {
+  margin-top: 30px; /* adjust as needed */
+  text-align: justify;
+  width: 80%;  /* set the width of the figcaption */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clickable-menu {
+  background-color: #f8f8f8; /* light gray background */
+  border: 1px solid #ddd; /* thin gray border */
+  border-radius: 5px; /* slightly rounded corners */
+  width: 50%; /* adjust width as needed */
+  margin: 20px 0; /* some space above and below the menu */
+  padding: 10px; /* some space inside the menu */
+  list-style-type: none; /* removes default bullet points */
+}
+
+.clickable-menu ul {
+  padding: 0; /* removes default padding */
+}
+
+.clickable-menu li {
+  margin-bottom: 10px; /* space between list items */
+}
+
+.clickable-menu a {
+  color: #333; /* dark gray text color */
+  text-decoration: none; /* removes the default underline */
+}
+
+.clickable-menu a:hover {
+  color: #007bff; /* changes the link color on hover */
 }
 
 /*--------------------------------------------------------------
