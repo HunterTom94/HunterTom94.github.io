@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="favicon update">
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="SpecTracle Fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ValveControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/ValveControl.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <workItem from="1682982437365" duration="2311000" />
       <workItem from="1682992196166" duration="28628000" />
       <workItem from="1683746141045" duration="150000" />
-      <workItem from="1684260351651" duration="5939000" />
+      <workItem from="1684260351651" duration="7608000" />
     </task>
     <task id="LOCAL-00001" summary="new template">
       <created>1682980931805</created>
@@ -185,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684269028557</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="SpecTracle Fix">
+      <created>1684269751301</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684269751301</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +223,8 @@
     <MESSAGE value="updated headers" />
     <MESSAGE value="update BPClip" />
     <MESSAGE value="favicon update" />
-    <option name="LAST_COMMIT_MESSAGE" value="favicon update" />
+    <MESSAGE value="SpecTracle Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpecTracle Fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
