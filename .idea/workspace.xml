@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="update CV">
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="update BPClip paper link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BPClip.html" beforeDir="false" afterPath="$PROJECT_DIR$/BPClip.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +81,7 @@
       <workItem from="1684260351651" duration="8489000" />
       <workItem from="1684631463660" duration="2835000" />
       <workItem from="1684819941668" duration="298000" />
+      <workItem from="1685382726516" duration="1033000" />
     </task>
     <task id="LOCAL-00001" summary="new template">
       <created>1682980931805</created>
@@ -214,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684820233460</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update BPClip paper link">
+      <created>1685383004287</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1685383004287</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +258,8 @@
     <MESSAGE value="fix favicon" />
     <MESSAGE value="fix resume link" />
     <MESSAGE value="update CV" />
-    <option name="LAST_COMMIT_MESSAGE" value="update CV" />
+    <MESSAGE value="update BPClip paper link" />
+    <option name="LAST_COMMIT_MESSAGE" value="update BPClip paper link" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -215,9 +215,11 @@
                 </div>
 
                 <div class="portfolio-paper">
-                    <h5><b>Nature Scientific Report</b><br> <br><a
+                    <h5><b>Nature Scientific Reports</b><br> <br><a
                             href="https://rdcu.be/ddeHz"
-                            target="_blank"> Ultra-low-cost Mechanical Smartphone Attachment for No-Calibration Blood Pressure Measurement </a></h5>
+                            target="_blank"> Ultra-low-cost Mechanical Smartphone Attachment for No-Calibration Blood Pressure Measurement </a> <br> <br>
+                        Corresponding Email: <span id="BPClip_email"></span>
+                    </h5>
                     <div class="clickable-menu">
                         <ul>
                             <li><a href="#figure1">Figure 1 - System Overview</a></li>
@@ -318,6 +320,18 @@
 
     // Call the function to set the email address as the href attribute
     setEmailLink();
+</script>
+
+<script>
+    // Function to display the email address
+    function displayEmail() {
+        const user = 'bpclip';
+        const domain = 'ucsd.edu';
+        document.getElementById('BPClip_email').innerText = user + '@' + domain;
+    }
+
+    // Call the function to display the email address
+    displayEmail();
 </script>
 
 <!--Jump to Specific Section in Home Page-->
