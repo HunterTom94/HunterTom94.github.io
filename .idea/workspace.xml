@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="update BPClip paper link">
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="update BPClip">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BPClip.html" beforeDir="false" afterPath="$PROJECT_DIR$/BPClip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GutImaging.html" beforeDir="false" afterPath="$PROJECT_DIR$/GutImaging.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YinanXuanCV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/YinanXuanCV.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,24 +38,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/CodeRepos/PersonalWebsite/assets/img/portfolio/bpclip&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/CodeRepos/PersonalWebsite",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\CodeRepos\PersonalWebsite\assets\img\portfolio\bpclip" />
       <recent name="E:\CodeRepos\PersonalWebsite" />
+      <recent name="E:\CodeRepos\PersonalWebsite\assets\img\portfolio\bpclip" />
       <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\peltier" />
       <recent name="C:\Users\tomxu\Downloads\iPortfolio" />
       <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\GutImaging" />
@@ -81,7 +85,8 @@
       <workItem from="1684260351651" duration="8489000" />
       <workItem from="1684631463660" duration="2835000" />
       <workItem from="1684819941668" duration="298000" />
-      <workItem from="1685382726516" duration="1033000" />
+      <workItem from="1685382726516" duration="2683000" />
+      <workItem from="1685829424190" duration="1441000" />
     </task>
     <task id="LOCAL-00001" summary="new template">
       <created>1682980931805</created>
@@ -223,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685383004287</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update BPClip">
+      <created>1685383871039</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1685383871039</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,14 +264,14 @@
     <MESSAGE value="added separator between YouTube video" />
     <MESSAGE value="reorganized research projects" />
     <MESSAGE value="updated headers" />
-    <MESSAGE value="update BPClip" />
     <MESSAGE value="favicon update" />
     <MESSAGE value="SpecTracle Fix" />
     <MESSAGE value="fix favicon" />
     <MESSAGE value="fix resume link" />
     <MESSAGE value="update CV" />
     <MESSAGE value="update BPClip paper link" />
-    <option name="LAST_COMMIT_MESSAGE" value="update BPClip paper link" />
+    <MESSAGE value="update BPClip" />
+    <option name="LAST_COMMIT_MESSAGE" value="update BPClip" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
