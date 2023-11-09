@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="update BPClip">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BPClip.html" beforeDir="false" afterPath="$PROJECT_DIR$/BPClip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GutImaging.html" beforeDir="false" afterPath="$PROJECT_DIR$/GutImaging.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YinanXuanCV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/YinanXuanCV.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="update altmetric and google scholar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +79,7 @@
       <workItem from="1684631463660" duration="2835000" />
       <workItem from="1684819941668" duration="298000" />
       <workItem from="1685382726516" duration="2683000" />
-      <workItem from="1685829424190" duration="1441000" />
+      <workItem from="1685829424190" duration="1984000" />
     </task>
     <task id="LOCAL-00001" summary="new template">
       <created>1682980931805</created>
@@ -235,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685383871039</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update altmetric and google scholar">
+      <created>1685831413668</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1685831413668</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +271,8 @@
     <MESSAGE value="update CV" />
     <MESSAGE value="update BPClip paper link" />
     <MESSAGE value="update BPClip" />
-    <option name="LAST_COMMIT_MESSAGE" value="update BPClip" />
+    <MESSAGE value="update altmetric and google scholar" />
+    <option name="LAST_COMMIT_MESSAGE" value="update altmetric and google scholar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
