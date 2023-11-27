@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="update CV">
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="update CV&#10;update intro">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YinanXuanCV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/YinanXuanCV.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -85,7 +85,8 @@
       <workItem from="1685382726516" duration="2683000" />
       <workItem from="1685829424190" duration="1984000" />
       <workItem from="1699557614596" duration="538000" />
-      <workItem from="1700368674406" duration="742000" />
+      <workItem from="1700368674406" duration="917000" />
+      <workItem from="1701073673706" duration="1250000" />
     </task>
     <task id="LOCAL-00001" summary="new template">
       <created>1682980931805</created>
@@ -255,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699557956625</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="update CV&#10;update intro">
+      <created>1700373680446</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1700373680446</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +300,8 @@
     <MESSAGE value="update BPClip" />
     <MESSAGE value="update altmetric and google scholar" />
     <MESSAGE value="update CV" />
-    <option name="LAST_COMMIT_MESSAGE" value="update CV" />
+    <MESSAGE value="update CV&#10;update intro" />
+    <option name="LAST_COMMIT_MESSAGE" value="update CV&#10;update intro" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

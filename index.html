@@ -6,7 +6,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XKHC4D5WW8"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-XKHC4D5WW8');
@@ -82,7 +86,9 @@
                 </li>
                 <li><a href="index.html#services" class="nav-link scrollto"><i class="bx bx-book-content"></i>
                     <span>Research</span></a></li>
-                <li><a href="https://scholar.google.com/citations?hl=en&user=isMpQfIAAAAJ&view_op=list_works&sortby=pubdate" target="_blank"
+                <li>
+                    <a href="https://scholar.google.com/citations?hl=en&user=isMpQfIAAAAJ&view_op=list_works&sortby=pubdate"
+                       target="_blank"
                        class="nav-link scrollto"><i class="bx bx-server"></i> <span>Publications</span></a>
                 </li>
             </ul>
@@ -104,9 +110,10 @@
                     </li>
                     <li><a href="index.html#services" class="nav-link scrollto"><i class="bx bx-book-content"></i>
                         <span>Research Projects</span></a></li>
-                    <li><a href="https://scholar.google.com/citations?hl=en&user=isMpQfIAAAAJ&view_op=list_works&sortby=pubdate"
+                    <li>
+                        <a href="https://scholar.google.com/citations?hl=en&user=isMpQfIAAAAJ&view_op=list_works&sortby=pubdate"
                            target="_blank" class="nav-link scrollto"><i class="bx bx-server"></i>
-                        <span>Publications</span></a>
+                            <span>Publications</span></a>
                     </li>
                 </ul>
 
@@ -182,9 +189,12 @@
                         Melanogaster, also known as fruit flies.</p>
                     <p>
                         My research interests are at the intersection of ubiquitous computing, personal tracking,
-                        and human-computer interaction (HCI). As an ECE Ph.D. candidate, I am deeply engaged in the development
-                        of accessible, wearable health solutions. My work predominantly focuses on <b>sensing for human activities
-                        and physiological status</b>, where I blend applied machine learning with my adeptness in <b>prototyping both
+                        and human-computer interaction (HCI). As an ECE Ph.D. candidate, I am deeply engaged in the
+                        development
+                        of accessible, wearable health solutions. My work predominantly focuses on <b>sensing for human
+                        activities
+                        and physiological status</b>, where I blend applied machine learning with my adeptness in <b>prototyping
+                        both
                         hardware and software systems</b>. This interdisciplinary approach underscores my role as a <b>generalist</b>,
                         committed to innovating in sensing technologies for accurate monitoring of human physiological
                         and activity metrics.
@@ -231,6 +241,42 @@
             </div>
 
             <div class="row">
+                <!--                Tonemap-->
+                <div class="col-12 icon-box" data-aos="fade-up">
+                    <div class="row">
+                        <div class="col-md-4 col-12 d-flex justify-content-center">
+                            <img src="assets/img/portfolio/tonemap.jpg" alt="Image description" class="img-fluid">
+                        </div>
+                        <div class="col-md-8 col-12">
+                            <h4 class="title"><a href="https://doi.org/10.3389/fdgth.2023.1301019">A calibration method
+                                for smartphone camera photophlethysmography</a></h4>
+                            <p class="description"><b>Yinan Xuan</b>, Colin Barry, Nick Antipa, and Edward Jay Wang</p>
+                            <div class="paper-info">
+                                <p class="conferenceName">
+                                    Frontiers in Digital Health
+                                </p>
+                            </div>
+
+                            <p class="project-description">
+                                Smartphone camera photoplethysmography (cPPG) enables non-invasive pulse oximetry and
+                                hemoglobin concentration measurements. However, the aesthetic-driven non-linearity in
+                                default image capture and preprocessing pipelines poses challenges for consistency and
+                                transferability of cPPG across devices. This work identifies two key parameters—tone
+                                mapping and sensor threshold—that significantly impact cPPG measurements. We propose a
+                                novel calibration method to linearize camera measurements, thus enhancing consistency
+                                and transferability of cPPG across devices.
+                            </p>
+                            <div class="row mt-3">
+                                <div class="col-12">
+                                    <a href="https://doi.org/10.3389/fdgth.2023.1301019" target="_blank"
+                                       class="btn custom-btn mr-2">
+                                        <i class="fas fa-file-alt"></i> Paper
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!--                BPClip-->
                 <div class="col-12 icon-box" data-aos="fade-up">
                     <div class="row">
@@ -247,10 +293,12 @@
                                 <p class="conferenceName">
                                     Nature Scientific Reports
                                 </p>
-                                <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+                                <script type="text/javascript"
+                                        src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
                                 <div style="display: flex; align-items: center;">
-                                    <div>Altmetric Score: </div>
-                                    <div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="149081545"></div>
+                                    <div>Altmetric Score:</div>
+                                    <div class="altmetric-embed" data-badge-type="donut"
+                                         data-altmetric-id="149081545"></div>
                                 </div>
                             </div>
                             <p class="project-description">
@@ -336,16 +384,16 @@
                                 <p class="project-description"></p>
                             </div>
                             <div class="icon-box-buttons">
-<!--                                <a href="https://www.researchsquare.com/article/rs-2561946/latest" target="_blank"-->
-<!--                                   class="btn custom-btn mr-2">-->
-<!--                                    <i class="fas fa-file-alt"></i> Paper-->
-<!--                                </a>-->
+                                <a href="https://arxiv.org/abs/2308.07502" target="_blank"
+                                   class="btn custom-btn mr-2">
+                                    <i class="fas fa-file-alt"></i> Paper
+                                </a>
                                 <a href="https://youtu.be/1rl8Vzb01t0" target="_blank" class="btn custom-btn mr-2">
                                     <i class="fas fa-video"></i> Video
                                 </a>
-<!--                                <a href="" target="_blank" class="btn custom-btn">-->
-<!--                                    <i class="fas fa-info-circle"></i> Details-->
-<!--                                </a>-->
+                                <!--                                <a href="" target="_blank" class="btn custom-btn">-->
+                                <!--                                    <i class="fas fa-info-circle"></i> Details-->
+                                <!--                                </a>-->
                             </div>
                         </div>
                     </div>
@@ -403,8 +451,9 @@
                                     Nature
                                 </p>
                                 <div style="display: flex; align-items: center;">
-                                    <div>Altmetric Score: </div>
-                                    <div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="122760206"></div>
+                                    <div>Altmetric Score:</div>
+                                    <div class="altmetric-embed" data-badge-type="donut"
+                                         data-altmetric-id="122760206"></div>
                                 </div>
                             </div>
 
