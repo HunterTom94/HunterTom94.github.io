@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="update CV&#10;update intro">
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="revised self-intro&#10;update CV">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YinanXuanCV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/YinanXuanCV.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/CodeRepos/PersonalWebsite&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -86,7 +85,11 @@
       <workItem from="1685829424190" duration="1984000" />
       <workItem from="1699557614596" duration="538000" />
       <workItem from="1700368674406" duration="917000" />
-      <workItem from="1701073673706" duration="1250000" />
+      <workItem from="1701073673706" duration="1931000" />
+      <workItem from="1701335707942" duration="671000" />
+      <workItem from="1702287376478" duration="105000" />
+      <workItem from="1702359042406" duration="1788000" />
+      <workItem from="1703142499515" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="new template">
       <created>1682980931805</created>
@@ -263,7 +266,42 @@
       <option name="project" value="LOCAL" />
       <updated>1700373680446</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="update CV&#10;update tonemap paper">
+      <created>1701080872640</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1701080872640</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update tonemap image">
+      <created>1701081111505</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1701081111505</updated>
+    </task>
+    <task id="LOCAL-00028" summary="added an ID to tonemap for easier navigation">
+      <created>1701335989985</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1701335989985</updated>
+    </task>
+    <task id="LOCAL-00029" summary="revised self-intro">
+      <created>1702287448926</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1702287448926</updated>
+    </task>
+    <task id="LOCAL-00030" summary="revised self-intro&#10;update CV">
+      <created>1702368533942</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1702368533942</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +339,12 @@
     <MESSAGE value="update altmetric and google scholar" />
     <MESSAGE value="update CV" />
     <MESSAGE value="update CV&#10;update intro" />
-    <option name="LAST_COMMIT_MESSAGE" value="update CV&#10;update intro" />
+    <MESSAGE value="update CV&#10;update tonemap paper" />
+    <MESSAGE value="update tonemap image" />
+    <MESSAGE value="added an ID to tonemap for easier navigation" />
+    <MESSAGE value="revised self-intro" />
+    <MESSAGE value="revised self-intro&#10;update CV" />
+    <option name="LAST_COMMIT_MESSAGE" value="revised self-intro&#10;update CV" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
