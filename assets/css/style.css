@@ -24,9 +24,10 @@
   justify-content: end;
 }
 
-/* Add padding around the carousel item content */
+
 #news-carousel .carousel-item {
   padding: 0 0px; /* Adjust padding as needed */
+  height: 200px; /* Fixed height for all items */
 }
 
 

@@ -845,7 +845,7 @@ document.addEventListener("DOMContentLoaded", scrollToTargetOnLoad);
 
 // Automatically populate the news
 <script>
-    fetch('assets/js/news.json') // Update the path to where you've stored your news.json
+    fetch('assets/js/news.json')
         .then(response => response.json())
         .then(newsItems => populateNewsCarousel(newsItems, 2, 2)) // Calls the function to populate the carousel
         .catch(error => console.error('Error loading news:', error));
@@ -866,7 +866,6 @@ document.addEventListener("DOMContentLoaded", scrollToTargetOnLoad);
                     if (newsItems[newsIndex]) {
                         const newsEntry = newsItems[newsIndex];
                         let contentWithLinks = newsEntry.text;
-                        // Process links if any
                         if (newsEntry.links && newsEntry.links.length > 0) {
                             newsEntry.links.forEach(link => {
                                 const linkHtml = `<a href="${link.url}" target="_blank">${link.linkedText}</a>`;
@@ -883,8 +882,6 @@ document.addEventListener("DOMContentLoaded", scrollToTargetOnLoad);
             carouselInner.innerHTML += itemHtml;
         }
     }
-
-
 </script>
 
 
