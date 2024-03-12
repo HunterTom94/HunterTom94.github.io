@@ -1,6 +1,35 @@
 /*--------------------------------------------------------------
 # Custom
 --------------------------------------------------------------*/
+#latest-updates {
+  background-color: #f0f8ff; /* Lighter shade to fit the theme */
+}
+#latest-updates .carousel-item p {
+  font-size: 1rem; /* Adjust based on your preference */
+  color: #333; /* Default text color, change if needed */
+}
+
+/* Enhance visibility of carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(100%); /* Makes the arrows white; adjust as needed */
+  margin: 0;
+}
+
+.carousel-control-prev{
+  justify-content: start;
+}
+
+.carousel-control-next {
+  justify-content: end;
+}
+
+/* Add padding around the carousel item content */
+#news-carousel .carousel-item {
+  padding: 0 0px; /* Adjust padding as needed */
+}
+
+
 .newline::before {
   content: "\A";
   white-space: pre;
@@ -1318,4 +1347,5 @@ font-size: 18px;
     padding-right: 20px 15px;
   }
 }
+
 

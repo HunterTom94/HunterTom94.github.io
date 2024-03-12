@@ -218,13 +218,39 @@
                         </div>
                     </div>
 
-                    <p><i>-Last Updated: Dec 12, 2023</i></p>
+                    <section id="latest-updates" class="bg-light py-3">
+                        <div class="container">
+
+                            <h3>Latest Updates</h3>
+
+                            <div id="news-carousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner"></div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#news-carousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#news-carousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+
+                            </div>
+
+
+                        </div>
+                    </section>
+
+                    <p><i>-Last Updated: Mar 12, 2024</i></p>
 
                 </div>
             </div>
 
         </div>
     </section><!-- End About Section -->
+
+
+
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -816,6 +842,51 @@ function scrollToTargetOnLoad() {
 // Call the scrollToTargetOnLoad function when the DOM is fully loaded
 document.addEventListener("DOMContentLoaded", scrollToTargetOnLoad);
 </script>
+
+// Automatically populate the news
+<script>
+    fetch('assets/js/news.json') // Update the path to where you've stored your news.json
+        .then(response => response.json())
+        .then(newsItems => populateNewsCarousel(newsItems, 2, 2)) // Calls the function to populate the carousel
+        .catch(error => console.error('Error loading news:', error));
+
+    function populateNewsCarousel(newsItems, itemsPerColumn, columnsPerItem, autoAdvanceTime = 10000) {
+        const carouselInner = document.querySelector('#news-carousel .carousel-inner');
+        carouselInner.innerHTML = ''; // Clear existing items
+        let isActive = 'active';
+
+        for (let i = 0; i < newsItems.length; i += itemsPerColumn * columnsPerItem) {
+            let itemHtml = `<div class="carousel-item ${isActive} px-5" data-bs-interval="${autoAdvanceTime}"><div class="row">`;
+            isActive = ''; // Only the first item should be 'active'
+
+            for (let col = 0; col < columnsPerItem; col++) {
+                itemHtml += '<div class="col-xl-6">'; // Use col-lg-6 or col-sm-6 as needed for responsiveness
+                for (let j = 0; j < itemsPerColumn; j++) {
+                    const newsIndex = i + j + (col * itemsPerColumn);
+                    if (newsItems[newsIndex]) {
+                        const newsEntry = newsItems[newsIndex];
+                        let contentWithLinks = newsEntry.text;
+                        // Process links if any
+                        if (newsEntry.links && newsEntry.links.length > 0) {
+                            newsEntry.links.forEach(link => {
+                                const linkHtml = `<a href="${link.url}" target="_blank">${link.linkedText}</a>`;
+                                contentWithLinks = contentWithLinks.replace(link.linkedText, linkHtml);
+                            });
+                        }
+                        itemHtml += `<p><strong>${newsEntry.date}</strong> - ${contentWithLinks}</p>`;
+                    }
+                }
+                itemHtml += '</div>'; // Close column div
+            }
+
+            itemHtml += '</div></div>'; // Close row and carousel-item divs
+            carouselInner.innerHTML += itemHtml;
+        }
+    }
+
+
+</script>
+
 
 
 </body>
