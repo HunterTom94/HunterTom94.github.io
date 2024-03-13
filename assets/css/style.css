@@ -41,6 +41,11 @@
   font-weight: 400;
 }
 
+.about-name{
+  padding-top: 2rem;
+  justify-content: center;
+}
+
 .icon-links {
   display: flex;
   justify-content: center;
