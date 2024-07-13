@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="fix news section height">
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="changed name title position">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/news.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,8 @@
       <workItem from="1709633964274" duration="431000" />
       <workItem from="1710133307382" duration="3276000" />
       <workItem from="1710184712413" duration="10939000" />
-      <workItem from="1710306654765" duration="1116000" />
+      <workItem from="1710306654765" duration="1695000" />
+      <workItem from="1720851071897" duration="2599000" />
     </task>
     <task id="LOCAL-00001" summary="new template">
       <created>1682980931805</created>
@@ -335,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710271660001</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="changed name title position">
+      <created>1710308388368</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1710308388368</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +361,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cname" />
     <MESSAGE value="updated peltier name" />
     <MESSAGE value="Added BPClip&#10;&#10;Fixed mobile compatibility" />
     <MESSAGE value="resize img" />
@@ -378,7 +385,8 @@
     <MESSAGE value="update CV" />
     <MESSAGE value="update news section" />
     <MESSAGE value="fix news section height" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix news section height" />
+    <MESSAGE value="changed name title position" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed name title position" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
