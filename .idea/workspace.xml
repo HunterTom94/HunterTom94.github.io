@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="changed name title position">
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="update news section">
+      <change afterPath="$PROJECT_DIR$/YinanXuanResume.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/news.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BPClip.html" beforeDir="false" afterPath="$PROJECT_DIR$/BPClip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GutImaging.html" beforeDir="false" afterPath="$PROJECT_DIR$/GutImaging.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OdorVR.html" beforeDir="false" afterPath="$PROJECT_DIR$/OdorVR.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ValveControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/ValveControl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YinanXuanCV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/YinanXuanCV.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peltierStage.html" beforeDir="false" afterPath="$PROJECT_DIR$/peltierStage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +102,10 @@
       <workItem from="1710133307382" duration="3276000" />
       <workItem from="1710184712413" duration="10939000" />
       <workItem from="1710306654765" duration="1695000" />
-      <workItem from="1720851071897" duration="2599000" />
+      <workItem from="1720851071897" duration="2896000" />
+      <workItem from="1722496205476" duration="1678000" />
+      <workItem from="1724999379468" duration="128000" />
+      <workItem from="1724999674275" duration="844000" />
     </task>
     <task id="LOCAL-00001" summary="new template">
       <created>1682980931805</created>
@@ -343,7 +352,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710308388368</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="job searching related update">
+      <created>1720853996817</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1720853996817</updated>
+    </task>
+    <task id="LOCAL-00037" summary="update news section">
+      <created>1722497900875</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1722497900875</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +384,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated peltier name" />
     <MESSAGE value="Added BPClip&#10;&#10;Fixed mobile compatibility" />
     <MESSAGE value="resize img" />
     <MESSAGE value="added Nature Paper link" />
@@ -383,10 +405,11 @@
     <MESSAGE value="revised self-intro" />
     <MESSAGE value="revised self-intro&#10;update CV" />
     <MESSAGE value="update CV" />
-    <MESSAGE value="update news section" />
     <MESSAGE value="fix news section height" />
     <MESSAGE value="changed name title position" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed name title position" />
+    <MESSAGE value="job searching related update" />
+    <MESSAGE value="update news section" />
+    <option name="LAST_COMMIT_MESSAGE" value="update news section" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
