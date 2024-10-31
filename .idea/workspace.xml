@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="update news section">
-      <change afterPath="$PROJECT_DIR$/YinanXuanResume.pdf" afterDir="false" />
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="update last update date">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BPClip.html" beforeDir="false" afterPath="$PROJECT_DIR$/BPClip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GutImaging.html" beforeDir="false" afterPath="$PROJECT_DIR$/GutImaging.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OdorVR.html" beforeDir="false" afterPath="$PROJECT_DIR$/OdorVR.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ValveControl.html" beforeDir="false" afterPath="$PROJECT_DIR$/ValveControl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YinanXuanCV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/YinanXuanCV.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/news.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peltierStage.html" beforeDir="false" afterPath="$PROJECT_DIR$/peltierStage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +99,8 @@
       <workItem from="1720851071897" duration="2896000" />
       <workItem from="1722496205476" duration="1678000" />
       <workItem from="1724999379468" duration="128000" />
-      <workItem from="1724999674275" duration="844000" />
+      <workItem from="1724999674275" duration="1274000" />
+      <workItem from="1730346592738" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="new template">
       <created>1682980931805</created>
@@ -366,7 +361,31 @@
       <option name="project" value="LOCAL" />
       <updated>1722497900875</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="update resume and CV">
+      <option name="closed" value="true" />
+      <created>1725000662374</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1725000662374</updated>
+    </task>
+    <task id="LOCAL-00039" summary="update resume">
+      <option name="closed" value="true" />
+      <created>1725000753885</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1725000753885</updated>
+    </task>
+    <task id="LOCAL-00040" summary="update last update date">
+      <option name="closed" value="true" />
+      <created>1725000889305</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1725000889305</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,9 +403,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added BPClip&#10;&#10;Fixed mobile compatibility" />
-    <MESSAGE value="resize img" />
-    <MESSAGE value="added Nature Paper link" />
     <MESSAGE value="update YouTube video" />
     <MESSAGE value="added separator between YouTube video" />
     <MESSAGE value="reorganized research projects" />
@@ -409,7 +425,10 @@
     <MESSAGE value="changed name title position" />
     <MESSAGE value="job searching related update" />
     <MESSAGE value="update news section" />
-    <option name="LAST_COMMIT_MESSAGE" value="update news section" />
+    <MESSAGE value="update resume and CV" />
+    <MESSAGE value="update resume" />
+    <MESSAGE value="update last update date" />
+    <option name="LAST_COMMIT_MESSAGE" value="update last update date" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
