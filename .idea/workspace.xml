@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="update C-suite demo">
+    <list default="true" id="ff6fd002-b707-49e5-b88f-d96fbdb33d5f" name="Changes" comment="fix news bug">
+      <change afterPath="$PROJECT_DIR$/assets/img/portfolio/vibroBP.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/news.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YinanXuanCV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/YinanXuanCV.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YinanXuanResume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/YinanXuanResume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,28 +37,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/CodeRepos/PersonalWebsite&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/CodeRepos/PersonalWebsite/assets/img/portfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CodeRepos\PersonalWebsite\assets\img\portfolio" />
       <recent name="E:\CodeRepos\PersonalWebsite" />
       <recent name="E:\CodeRepos\PersonalWebsite\assets\img\portfolio\bpclip" />
       <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\peltier" />
       <recent name="C:\Users\tomxu\Downloads\iPortfolio" />
-      <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\GutImaging" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tomxu\Downloads\iPortfolio\assets\img\portfolio\bpclip" />
@@ -100,7 +103,8 @@
       <workItem from="1724999379468" duration="128000" />
       <workItem from="1724999674275" duration="1274000" />
       <workItem from="1730346592738" duration="1572000" />
-      <workItem from="1730352696071" duration="46000" />
+      <workItem from="1730352696071" duration="127000" />
+      <workItem from="1730599899161" duration="2108000" />
     </task>
     <task id="LOCAL-00001" summary="new template">
       <created>1682980931805</created>
@@ -393,7 +397,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730352313461</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="fix news bug">
+      <option name="closed" value="true" />
+      <created>1730352816907</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1730352816907</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added separator between YouTube video" />
     <MESSAGE value="reorganized research projects" />
     <MESSAGE value="updated headers" />
     <MESSAGE value="favicon update" />
@@ -436,7 +447,8 @@
     <MESSAGE value="update resume" />
     <MESSAGE value="update last update date" />
     <MESSAGE value="update C-suite demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="update C-suite demo" />
+    <MESSAGE value="fix news bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix news bug" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
