@@ -62,7 +62,7 @@
 }
 
 .icon-link:hover {
-  color: #007bff; /* Adjust the icon hover color */
+  color: #2563EB;
 }
 
 .portfolio-title {
@@ -86,6 +86,28 @@
 .altmetric-embed {
   padding-left: 1rem;
 }
+
+/* About section profile image */
+.about .col-lg-4 > .img-fluid {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Standardize project thumbnails */
+.icon-box .col-md-4 .img-fluid,
+.icon-box .col-md-4 video.img-fluid {
+  border-radius: 10px;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+  width: 100%;
+}
+
+/* Last updated styling */
+.about .content > p:last-child {
+  color: #94A3B8;
+  font-size: 0.85rem;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -95,12 +117,12 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #2563EB;
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #3B82F6;
   text-decoration: none;
 }
 
@@ -123,7 +145,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #2563EB;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -137,7 +159,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
+  background: #3B82F6;
   color: #fff;
 }
 
@@ -159,7 +181,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #0F172A;
   overflow-y: auto;
 }
 
@@ -167,7 +189,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 4px solid rgba(255, 255, 255, 0.15);
 }
 
 #header .profile h1 {
@@ -189,7 +211,7 @@ h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
+  background: #1E293B;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -202,7 +224,7 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #2563EB;
   color: #fff;
   text-decoration: none;
 }
@@ -242,7 +264,7 @@ h6 {
     display: block;
     padding: 1px 0;
     overflow: hidden;
-    background: #040b14;
+    background: #0F172A;
     position: fixed;
     top: 0;
     left: 0;
@@ -391,7 +413,7 @@ h6 {
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #149ddd;
+  color: #2563EB;
 }
 
 /* Mobile Navigation */
@@ -404,7 +426,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #2563EB;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -518,7 +540,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #2563EB;
 }
 
 @media (min-width: 1024px) {
@@ -544,7 +566,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 80px 0;
   overflow: hidden;
 }
 
@@ -571,7 +593,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #2563EB;
   bottom: 0;
   left: 0;
 }
@@ -607,7 +629,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #2563EB;
   line-height: 0;
 }
 
@@ -630,7 +652,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #2563EB;
   float: left;
   line-height: 0;
 }
@@ -700,7 +722,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #2563EB;
 }
 
 /*--------------------------------------------------------------
@@ -796,7 +818,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #2563EB;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -840,17 +862,17 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: rgba(37, 99, 235, 0.75);
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: rgba(37, 99, 235, 0.95);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid #3B82F6;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -899,7 +921,7 @@ section {
 }
 
 .portfolio-content:hover .portfolio-title h4 {
-  color: #007bff; /* Example: change the text color */
+  color: #2563EB; /* Example: change the text color */
 }
 
 /*--------------------------------------------------------------
@@ -927,11 +949,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #2563EB;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #2563EB;
 }
 
 .portfolio-details .portfolio-info {
@@ -1132,18 +1154,25 @@ font-size: 18px;
 }
 
 .clickable-menu a:hover {
-  color: #007bff; /* changes the link color on hover */
+  color: #2563EB; /* changes the link color on hover */
 }
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   position: relative;
-  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
-  padding: 15px; /* Add some padding for better spacing */
-  border-radius: 15px; /* Optional: Add border-radius for rounded corners */
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  border-radius: 16px;
+  background: #fff;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.services .icon-box:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
 }
 
 .services .icon {
@@ -1153,10 +1182,10 @@ font-size: 18px;
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #2563EB;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid #2563EB;
 }
 
 .services .icon i {
@@ -1170,7 +1199,7 @@ font-size: 18px;
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #2563EB;
 }
 
 .services .title {
@@ -1186,7 +1215,7 @@ font-size: 18px;
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: #2563EB;
 }
 
 .services .description {
@@ -1196,12 +1225,24 @@ font-size: 18px;
 }
 
 .conferenceName {
-  font-weight: bold;
-  font-size: 22px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  background: #EFF6FF;
+  color: #1E40AF;
+  padding: 3px 10px;
+  border-radius: 4px;
+  display: inline-block;
 }
 
 .AwardName {
   font-style: italic;
+  font-weight: 600;
+  font-size: 0.85rem;
+  background: #FEF3C7;
+  color: #92400E;
+  padding: 3px 10px;
+  border-radius: 4px;
+  display: inline-block;
 }
 
 .col-8 {
@@ -1235,30 +1276,44 @@ font-size: 18px;
 
 .icon-box .conferenceName,
 .icon-box .AwardName {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin-bottom: 0.5rem;
-}
-
-.conferenceName,
-.AwardName {
-  display: inline;
 }
 
 .project-description {
   padding-top: 1rem;
+  line-height: 1.7;
 }
 
 .custom-btn {
-  border: 1px solid #007BFF;
+  border: 1px solid #2563EB;
   background-color: transparent;
-  color: #007BFF;
+  color: #2563EB;
   font-weight: 600;
   padding: 10px 20px;
+  border-radius: 6px;
   transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 6px;
 }
 
 .custom-btn:hover {
-  background-color: #007BFF;
+  background-color: #2563EB;
+  color: #fff;
+}
+
+.custom-btn-primary {
+  background-color: #2563EB;
+  color: #fff;
+  border: 1px solid #2563EB;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 6px;
+}
+
+.custom-btn-primary:hover {
+  background-color: #1D4ED8;
   color: #fff;
 }
 
@@ -1266,8 +1321,16 @@ font-size: 18px;
   margin-right: 5px;
 }
 
+.paper-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
 .paper-info p {
   display: inline-block;
+  margin-bottom: 0;
 }
 
 .icon-box .row {
