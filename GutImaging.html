@@ -23,7 +23,7 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
           rel="stylesheet">
 
     <!-- Vendor CSS Files -->
@@ -40,11 +40,6 @@
     <!--  Font Awesome-->
     <script src="https://kit.fontawesome.com/37894f6070.js" crossorigin="anonymous"></script>
 
-
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
 </head>
@@ -194,8 +189,8 @@
 
                         <div class="skill-group">
                             <ul>
-                                <li class="expandable-skills" data-toggle="collapse"
-                                    data-target="#software-related-skills">
+                                <li class="expandable-skills" data-bs-toggle="collapse"
+                                    data-bs-target="#software-related-skills">
                                     <i class="fas fa-caret-right"></i>
                                     <strong>Software</strong>
                                 </li>
@@ -212,8 +207,8 @@
 
                         <div class="skill-group">
                             <ul>
-                                <li class="expandable-skills" data-toggle="collapse"
-                                    data-target="#hardware-related-skills">
+                                <li class="expandable-skills" data-bs-toggle="collapse"
+                                    data-bs-target="#hardware-related-skills">
                                     <i class="fas fa-caret-right"></i>
                                     <strong>Data Analysis</strong>
                                 </li>
@@ -259,8 +254,9 @@
 
                     <div class="portfolio-description">
 
-                        <img src="assets/img/portfolio/GutImaging/Sample%20Video.gif"
-                             class="portfolio-detail-image img-fluid d-block mx-auto"/>
+                        <video autoplay loop muted playsinline class="portfolio-detail-image img-fluid d-block mx-auto" loading="lazy">
+                            <source src="assets/img/portfolio/GutImaging/Sample%20Video.mp4" type="video/mp4">
+                        </video>
                         <p class="text-center portfolio-figure-caption">A sample calcium imaging video recording of gut
                             cells</p>
 
@@ -286,8 +282,9 @@
                             be 50 pixels empirically.
                         </p>
 
-                        <img src="assets/img/portfolio/GutImaging/BackgroundSubtraction.gif"
-                             class="portfolio-detail-image img-fluid d-block mx-auto"/>
+                        <video autoplay loop muted playsinline class="portfolio-detail-image img-fluid d-block mx-auto" loading="lazy">
+                            <source src="assets/img/portfolio/GutImaging/BackgroundSubtraction.mp4" type="video/mp4">
+                        </video>
                         <p class="text-center portfolio-figure-caption">Before/After background subtraction</p>
 
                         <h4>Cell Body Identification</h4>
@@ -297,8 +294,9 @@
                             corrected by motion correction, an additional Gaussian blur filter was applied before the
                             Laplacian filter.</p>
 
-                        <img src="assets/img/portfolio/GutImaging/SARFIARawGaussianROI.gif"
-                             class="portfolio-detail-image img-fluid d-block mx-auto"/>
+                        <video autoplay loop muted playsinline class="portfolio-detail-image img-fluid d-block mx-auto" loading="lazy">
+                            <source src="assets/img/portfolio/GutImaging/SARFIARawGaussianROI.mp4" type="video/mp4">
+                        </video>
                         <p class="text-center portfolio-figure-caption">Raw max projection/Gaussian filter/Identified
                             ROI</p>
 
@@ -311,7 +309,7 @@
                         </p>
 
                         <img src="assets/img/portfolio/GutImaging/segment_image.jpeg"
-                             class="portfolio-detail-image img-fluid d-block mx-auto"/>
+                             class="portfolio-detail-image img-fluid d-block mx-auto" loading="lazy"/>
                         <p class="text-center portfolio-figure-caption">A gut divided into segments (Cells indicated
                             with pink ROIs)</p>
 
